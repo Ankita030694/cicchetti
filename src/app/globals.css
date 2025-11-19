@@ -280,13 +280,30 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Fruit section */
 .fruit-section {
-  min-height: 50vh;
+  min-height: 100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 4rem 2rem 0.5rem 2rem;
-  background: transparent;
+  background: linear-gradient(180deg, #3B3F27 0%, #3B3F27 77.89%, rgba(59, 63, 39, 0.91) 86.71%, rgba(59, 63, 39, 0.00) 100%);
   color: var(--neutral-white);
+  position: relative;
+  overflow: hidden;
+}
+
+.fruit-section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  background: linear-gradient(180deg, #3B3F27 13.05%, rgba(59, 63, 39, 0.8) 50%, rgba(59, 63, 39, 0.4) 80%, transparent 100%);
+  backdrop-filter: blur(35.900001525878906px);
+  -webkit-backdrop-filter: blur(35.900001525878906px);
+  z-index: 1;
+  pointer-events: none;
 }
 
 .fruit-container {
@@ -296,6 +313,8 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   align-items: center;
   gap: 3rem;
+  position: relative;
+  z-index: 2;
 }
 
 .fruit-svg {
@@ -324,6 +343,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Responsive styles for fruit section */
 @media (max-width: 768px) {
+  .fruit-section {
+    min-height: 100vh;
+    height: 100vh;
+    padding: 3rem 1rem 0.5rem 1rem;
+  }
+  
   .fruit-container {
     gap: 2rem;
     padding: 0 1rem;
@@ -341,6 +366,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 480px) {
+  .fruit-section {
+    min-height: 100vh;
+    height: 100vh;
+    padding: 2rem 1rem 0.5rem 1rem;
+  }
+  
   .fruit-svg {
     width: 120px;
   }
@@ -349,6 +380,21 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2rem;
     line-height: 1.4;
   }
+}
+
+/* Pizza section */
+.pizza-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.pizza-image {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  z-index: 1;
 }
 
 /* Content sections for smooth scroll demonstration */
@@ -405,35 +451,35 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   width: 100%;
-  background: transparent;
-  border-bottom: 1px solid transparent;
+  background: rgba(59, 63, 39, 0.30);
+  backdrop-filter: blur(5px) saturate(180%);
+  border-bottom: 1px solid white;
   z-index: 1000;
   padding: 1rem 0;
-  transform: translateY(-100%);
-  opacity: 0;
+  transform: translateY(0);
+  opacity: 1;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: transform, opacity;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Apply blur effect only when scrolled */
-.navbar.scrolled {
-  background: rgba(140, 82, 57, 0.85);
-  backdrop-filter: blur(40px) saturate(200%);
-  -webkit-backdrop-filter: blur(40px) saturate(200%);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+/* Firefox fallback - backdrop-filter is not fully supported */
+@-moz-document url-prefix() {
+  .navbar {
+    background: rgba(59, 63, 39, 0.3);
+  }
+}
+
+/* Fallback for browsers that don't support backdrop-filter */
+@supports not (backdrop-filter: blur(15px)) {
+  .navbar {
+    background: rgba(59, 63, 39, 0.85);
+  }
 }
 
 .navbar.visible {
   transform: translateY(0);
   opacity: 1;
-}
-
-/* Enhanced glassy effect for modern browsers */
-@supports (backdrop-filter: blur(40px)) {
-  .navbar.scrolled {
-    background: rgba(140, 82, 57, 0.75);
-  }
 }
 
 .navbar-container {
@@ -443,23 +489,34 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 0 2rem;
+  width: 100%;
 }
 
 .navbar-left {
   display: flex;
   align-items: center;
+  flex: 1;
+  justify-content: flex-start;
 }
 
 .navbar-center {
   display: flex;
   align-items: center;
-  margin-left: 5%;
+  justify-content: center;
+  flex: 1;
 }
 
 .navbar-right {
   display: flex;
   align-items: center;
   gap: 1rem;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.navbar-divider {
+  opacity: 0.8;
+  filter: brightness(0) invert(1);
 }
 
 .reservation-btn {
@@ -662,6 +719,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  gap: 2rem;
 }
 
 /* Mobile Navbar Styles */
@@ -2191,6 +2249,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Scroll-driven text reveal styles */
 .reveal-section {
   position: relative;
+  background-image: url('/bgcc.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .reveal-word {
@@ -2200,76 +2262,6 @@ h1, h2, h3, h4, h5, h6 {
   white-space: pre-wrap;
 }
 
-/* Horizontal slide reveal image section */
-.horizontal-slide-section {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-  background: var(--background);
-  margin-top: -1rem;
-}
-
-.horizontal-slide-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  overflow: hidden;
-}
-
-.horizontal-slide-image {
-  position: relative;
-  width: 100vw;
-  height: 100%;
-  overflow: hidden;
-  will-change: transform;
-}
-
-.horizontal-slide-image img {
-  width: 100vw;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-  transform: translateX(calc(100vw - (var(--scroll-progress) * 100vw)));
-  will-change: transform;
-}
-
-/* Smooth animation with GPU acceleration */
-@media (prefers-reduced-motion: no-preference) {
-  .horizontal-slide-image {
-    transition: none;
-  }
-  
-  .horizontal-slide-image img {
-    transition: none;
-  }
-}
-
-/* Mobile responsiveness for the horizontal slide effect */
-@media (max-width: 768px) {
-  .horizontal-slide-section {
-    height: 100vh;
-    margin-top: -0.75rem;
-  }
-  
-  .fruit-section {
-    padding: 3rem 1rem 0.5rem 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .horizontal-slide-section {
-    height: 100vh;
-    margin-top: -0.5rem;
-  }
-  
-  .fruit-section {
-    padding: 2rem 1rem 0.5rem 1rem;
-  }
-}
 
 /* Mobile Reservation Overlay */
 .mobile-reservation-overlay {

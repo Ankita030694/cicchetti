@@ -5,15 +5,14 @@ import Script from 'next/script';
 import Image from 'next/image';
 
 const CurlyDivider: React.FC = () => (
-  <svg width="2" height="40" viewBox="0 0 2 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path 
-      d="M1 0C1.5 5 0.5 10 1.5 15C0.5 20 1.5 25 0.5 30C1.5 35 1 40 1 40" 
-      stroke="white" 
-      strokeWidth="0.5" 
-      strokeLinecap="round"
-      opacity="0.6"
-    />
-  </svg>
+  <Image 
+    src="/divider.png" 
+    alt="Divider" 
+    width={10} 
+    height={10}
+    className="navbar-divider"
+    priority
+  />
 );
 
 const Navbar: React.FC = () => {
@@ -25,19 +24,11 @@ const Navbar: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Get the hero section height (100vh)
-      const heroHeight = window.innerHeight;
-      const scrollY = window.scrollY;
-      
-      // Show navbar when user scrolls past the hero section
-      if (scrollY > heroHeight * 0.8) { // Show when 80% past hero
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
+      // Make navbar always visible
+      setIsVisible(true);
 
       // Track if user has scrolled at all for blur effect
-      setHasScrolled(scrollY > 0);
+      setHasScrolled(window.scrollY > 0);
     };
 
     // Add scroll event listener
@@ -105,8 +96,8 @@ const Navbar: React.FC = () => {
           {/* Mobile Logo */}
           <div className="navbar-mobile-logo">
             <Image 
-              src="/logos/cclogo.png" 
-              alt="Delhi House Cafe" 
+              src="/logos/cclogo1.png" 
+              alt="Cicchetti" 
               width={80} 
               height={16}
               className="navbar-logo"
@@ -128,28 +119,11 @@ const Navbar: React.FC = () => {
             <div className="mobile-menu-dropdown">
              
               <div className="mobile-nav-links">
+                <button className="reservation-btn mobile" onClick={openReservationPopup}>
+                  MAKE A RESERVATION
+                </button>
                 <button className="nav-btn mobile">ABOUT US</button>
-                <div className="mobile-menu-section">
-                  <span className="mobile-menu-label">MENU</span>
-                  <a 
-                    href="/ccfood.pdf" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="mobile-menu-item"
-                  >
-                    <i className="fas fa-utensils"></i>
-                    Food Menu
-                  </a>
-                  <a 
-                    href="/ccdrinks.pdf" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="mobile-menu-item"
-                  >
-                    <i className="fas fa-cocktail"></i>
-                    Drinks Menu
-                  </a>
-                </div>
+                <button className="nav-btn mobile">NEW & MORE</button>
                 <button className="nav-btn mobile">CONTACT</button>
               </div>
             </div>
@@ -159,14 +133,19 @@ const Navbar: React.FC = () => {
         {/* Desktop Layout */}
         <div className="navbar-desktop">
           {/* Left - Make a Reservation */}
+          <div className="navbar-left">
+            <button className="reservation-btn" onClick={openReservationPopup}>
+              MAKE A RESERVATION
+            </button>
+          </div>
           
-          {/* Center - Delhi House Cafe Logo */}
+          {/* Center - Cicchetti Logo */}
           <div className="navbar-center">
             <Image 
-              src="/logos/cclogo.png" 
-              alt="Delhi House Cafe" 
-              width={100} 
-              height={20}
+              src="/logos/cclogo1.png" 
+              alt="Cicchetti" 
+              width={150} 
+              height={24}
               className="navbar-logo"
               priority
             />
@@ -176,35 +155,7 @@ const Navbar: React.FC = () => {
           <div className="navbar-right">
             <button className="nav-btn">ABOUT US</button>
             <CurlyDivider />
-            <div 
-              className="menu-dropdown-container"
-              onMouseEnter={() => setIsMenuDropdownOpen(true)}
-              onMouseLeave={() => setIsMenuDropdownOpen(false)}
-            >
-              <button className="nav-btn">MENU</button>
-              {isMenuDropdownOpen && (
-                <div className="menu-dropdown">
-                  <a 
-                    href="/ccfood.pdf" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="menu-dropdown-item"
-                  >
-                    <i className="fas fa-utensils"></i>
-                    Food Menu
-                  </a>
-                  <a 
-                    href="/ccdrinks.pdf" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="menu-dropdown-item"
-                  >
-                    <i className="fas fa-cocktail"></i>
-                    Drinks Menu
-                  </a>
-                </div>
-              )}
-            </div>
+            <button className="nav-btn">NEW & MORE</button>
             <CurlyDivider />
             <button className="nav-btn">CONTACT</button>
           </div>

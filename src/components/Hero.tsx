@@ -6,10 +6,11 @@ const Hero: React.FC = () => {
       {/* Full-screen video background */}
       <Image
         className="hero-video"
-        src="/herobg1.jpg"
+        src="/herobgcc.png"
         alt="Hero background"
         width={1920}
         height={1080}
+        style={{background: 'rgba(49, 49, 49, 0.42)'}}
       />
       
       {/* Overlay for better text visibility */}
@@ -17,7 +18,7 @@ const Hero: React.FC = () => {
       
       {/* Centered content */}
       <div className="hero-content">
-       <Image src="/logos/cclogo1.png" alt="Hero background" width={400} height={400} />
+       <Image src="/logos/cclogo1.png" alt="Hero background" width={700} height={700} />
         <div className="hero-divider"></div>
       </div>
     </div>
