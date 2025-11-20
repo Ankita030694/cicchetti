@@ -162,7 +162,7 @@ const Navbar: React.FC = () => {
             <CurlyDivider />
             <button className="nav-btn">NEW & MORE</button>
             <CurlyDivider />
-            <button className="nav-btn">CONTACT</button>
+            <Link href="/contact" className="nav-btn">CONTACT</Link>
           </div>
         </div>
       </div>
