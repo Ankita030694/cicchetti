@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Script from 'next/script';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const CurlyDivider: React.FC = () => (
   <Image 
@@ -95,14 +96,16 @@ const Navbar: React.FC = () => {
         <div className="navbar-mobile">
           {/* Mobile Logo */}
           <div className="navbar-mobile-logo">
-            <Image 
-              src="/logos/cclogo1.png" 
-              alt="Cicchetti" 
-              width={80} 
-              height={16}
-              className="navbar-logo"
-              priority
-            />
+            <Link href="/">
+              <Image 
+                src="/logos/cclogo1.png" 
+                alt="Cicchetti" 
+                width={80} 
+                height={16}
+                className="navbar-logo"
+                priority
+              />
+            </Link>
           </div>
           
           {/* Mobile Burger Menu */}
@@ -122,9 +125,9 @@ const Navbar: React.FC = () => {
                 <button className="reservation-btn mobile" onClick={openReservationPopup}>
                   MAKE A RESERVATION
                 </button>
-                <button className="nav-btn mobile">ABOUT US</button>
+                <Link href="/about" className="nav-btn mobile">ABOUT US</Link>
                 <button className="nav-btn mobile">NEW & MORE</button>
-                <button className="nav-btn mobile">CONTACT</button>
+                <Link href="/contact" className="nav-btn mobile">CONTACT</Link>
               </div>
             </div>
           )}
@@ -141,19 +144,21 @@ const Navbar: React.FC = () => {
           
           {/* Center - Cicchetti Logo */}
           <div className="navbar-center">
-            <Image 
-              src="/logos/cclogo1.png" 
-              alt="Cicchetti" 
-              width={150} 
-              height={24}
-              className="navbar-logo"
-              priority
-            />
+            <Link href="/">
+              <Image 
+                src="/logos/cclogo1.png" 
+                alt="Cicchetti" 
+                width={150} 
+                height={24}
+                className="navbar-logo"
+                priority
+              />
+            </Link>
           </div>
           
           {/* Right - Navigation with Curly Dividers */}
           <div className="navbar-right">
-            <button className="nav-btn">ABOUT US</button>
+            <Link href="/about" className="nav-btn">ABOUT US</Link>
             <CurlyDivider />
             <button className="nav-btn">NEW & MORE</button>
             <CurlyDivider />
