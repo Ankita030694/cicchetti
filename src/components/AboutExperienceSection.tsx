@@ -213,7 +213,7 @@ const AboutExperienceSection = () => {
               transformOrigin: "center"
             }}
           >
-            <img src="/rest.jpg" alt="Our sustainable concept" />
+            <img src="/aboutexp1.jpg" alt="Our sustainable concept" />
           </motion.div>
           <motion.div 
             className="experience-content"
@@ -305,7 +305,7 @@ const AboutExperienceSection = () => {
               transformOrigin: "center"
             }}
           >
-            <img src="/1cc.png" alt="The restaurant ambiance" />
+            <img src="/aboutexp2.jpg" alt="The restaurant ambiance" />
           </motion.div>
         </motion.div>
       </motion.div>
