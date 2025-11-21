@@ -10,8 +10,8 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Delhi House Cafe Manchester - OpenTable Reservations",
-  description: "Make a reservation at Delhi House Cafe Manchester through OpenTable. Restaurant ID #227751",
+  title: "Cicchetti Italiano",
+  description: "Make a reservation at Cicchetti Italiano House Cafe Manchester through OpenTable. Restaurant ID #227751",
 };
 
 export default function RootLayout({
