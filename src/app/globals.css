@@ -2049,7 +2049,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Footer Section */
 .footer-section {
-  background: transparent;
+  background-color: var(--background, #3d4424);
   padding: 4rem 2rem 2rem;
   color: var(--neutral-white);
   position: relative;
