@@ -61,7 +61,8 @@ export default function Home() {
                   fontStyle: "normal",
                   fontWeight: 400,
                   lineHeight: "65px",
-                  textTransform: "uppercase"
+                  textTransform: "uppercase",
+                  marginTop: "40px"
                 }}>THE CHEF</h1>
                 <p
                   style={{
