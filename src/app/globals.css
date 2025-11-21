@@ -2049,7 +2049,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Footer Section */
 .footer-section {
-  background-color: var(--background, #3d4424);
+  background-color: #3d4424 !important;
   padding: 4rem 2rem 2rem;
   color: var(--neutral-white);
   position: relative;
@@ -2174,6 +2174,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Responsive styles for footer */
 @media (max-width: 768px) {
   .footer-section {
+    background-color: #3d4424 !important;
     padding: 3rem 1rem 2rem;
   }
   
@@ -2354,6 +2355,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .footer-section {
+    background-color: #3d4424 !important;
     margin-bottom: 80px;
   }
 }
