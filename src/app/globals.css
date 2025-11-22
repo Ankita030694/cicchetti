@@ -730,6 +730,243 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+/* Mobile Menu Full Screen Overlay */
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(49, 49, 49, 0.7);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(14px);
+  z-index: 10000;
+  overflow-y: auto;
+  animation: mobileMenuFadeIn 0.3s ease-out;
+}
+
+.mobile-menu-navbar {
+  position: relative;
+  height: 92px;
+  background: rgba(59, 63, 39, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobile-menu-logo {
+  height: 43px;
+  width: 92px;
+}
+
+.mobile-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.mobile-menu-close {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  width: 40px;
+  height: 40px;
+}
+
+.mobile-menu-close:hover {
+  color: #d9c9b8;
+  transform: scale(1.1);
+}
+
+.mobile-menu-content {
+  padding: 30px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.mobile-nav-link {
+  font-family: 'Aileron', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 30px 0;
+  transition: all 0.3s ease;
+  letter-spacing: 0.02em;
+}
+
+.mobile-nav-link:hover {
+  color: #d9c9b8;
+  transform: translateX(5px);
+}
+
+.mobile-menu-divider {
+  height: 1px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0;
+}
+
+.mobile-contact-section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 40px;
+  gap: 40px;
+}
+
+.mobile-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  max-width: 259px;
+}
+
+.mobile-contact-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mobile-contact-label {
+  font-family: 'Aileron', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #3b3f27;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.mobile-contact-value {
+  font-family: 'Aileron', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 21px;
+  color: white;
+  margin: 0;
+}
+
+.mobile-hours-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mobile-contact-hours {
+  font-family: 'Aileron', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 17px;
+  color: white;
+  margin: 0;
+}
+
+.mobile-social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: 0;
+  flex-shrink: 0;
+}
+
+.mobile-social-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.mobile-social-icon:hover {
+  color: #d9c9b8;
+  transform: scale(1.1);
+}
+
+/* Responsive Mobile Menu */
+@media (max-width: 480px) {
+  .mobile-menu-navbar {
+    height: 80px;
+    padding: 20px;
+  }
+  
+  .mobile-menu-logo {
+    height: 36px;
+    width: 75px;
+  }
+  
+  .mobile-menu-close {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .mobile-menu-content {
+    padding: 20px;
+  }
+  
+  .mobile-nav-link {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 25px 0;
+  }
+  
+  .mobile-contact-section {
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 40px;
+    align-items: flex-start;
+  }
+  
+  .mobile-contact-info {
+    max-width: 100%;
+    flex: 1;
+  }
+  
+  .mobile-contact-label {
+    font-size: 18px;
+  }
+  
+  .mobile-contact-value {
+    font-size: 19px;
+  }
+  
+  .mobile-contact-hours {
+    font-size: 16px;
+  }
+  
+  .mobile-social-icons {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 20px;
+    flex-shrink: 0;
+  }
+}
+
 .navbar-mobile-logo {
   display: flex;
   align-items: center;
@@ -899,7 +1136,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Responsive Navbar */
 @media (max-width: 768px) {
   .navbar-container {
-    padding: 0 1rem;
+    padding: 0;
   }
   
   .navbar-mobile {
@@ -907,7 +1144,26 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .navbar-desktop {
-    display: none;
+    display: none !important;
+  }
+
+  .navbar {
+    background: rgba(59, 63, 39, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: none;
+    padding: 0;
+  }
+}
+
+/* Desktop - Hide Mobile Navbar */
+@media (min-width: 769px) {
+  .navbar-mobile {
+    display: none !important;
+  }
+  
+  .navbar-desktop {
+    display: flex;
   }
 }
 

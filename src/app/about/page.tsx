@@ -7,6 +7,7 @@ import AboutHero from '../../components/AboutHero';
 import AboutExperienceSection from '../../components/AboutExperienceSection';
 import VisitUsSection from '../../components/VisitUsSection';
 import Footer from '../../components/Footer';
+import MobileAbout from '../../components/MobileAbout';
 
 export default function AboutPage() {
   // State for reservation modal if needed by Navbar or other components
@@ -17,24 +18,32 @@ export default function AboutPage() {
     <main className="about-page">
       <Navbar />
       
-      <AboutHero />
-      
-      {/* Full Width Image Section */}
-      <section className="about-image-section">
-        <div className="about-image-container">
-          <img 
-            src="/aboutbelow.jpg" 
-            alt="About Cicchetti" 
-            className="about-full-image"
-          />
-        </div>
-      </section>
-      
-      <AboutExperienceSection />
-      
-      <VisitUsSection />
-      
-      <Footer />
+      {/* Desktop View */}
+      <div className="hidden md:block">
+        <AboutHero />
+        
+        {/* Full Width Image Section */}
+        <section className="about-image-section">
+          <div className="about-image-container">
+            <img 
+              src="/aboutbelow.jpg" 
+              alt="About Cicchetti" 
+              className="about-full-image"
+            />
+          </div>
+        </section>
+        
+        <AboutExperienceSection />
+        
+        <VisitUsSection />
+        
+        <Footer />
+      </div>
+
+      {/* Mobile View */}
+      <div className="block md:hidden">
+        <MobileAbout />
+      </div>
       
       <style jsx>{`
         .about-image-section {

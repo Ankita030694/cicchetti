@@ -27,6 +27,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rye&display=swap" rel="stylesheet" />
                <link href="https://fonts.cdnfonts.com/css/merchant" rel="stylesheet" />
                <link href="https://fonts.cdnfonts.com/css/merchant-extra-light" rel="stylesheet" />
+               <link href="https://fonts.cdnfonts.com/css/aileron" rel="stylesheet" />
         <link 
           rel="stylesheet" 
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"

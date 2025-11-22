@@ -5,17 +5,26 @@ import Navbar from '../../components/Navbar';
 import ContactForm from '../../components/ContactForm';
 import VisitUsSection from '../../components/VisitUsSection';
 import Footer from '../../components/Footer';
+import MobileContact from '../../components/MobileContact';
 
 export default function ContactPage() {
   return (
     <main className="contact-page">
       <Navbar />
       
-      <ContactForm />
-      
-      <VisitUsSection />
-      
-      <Footer />
+      {/* Desktop View */}
+      <div className="hidden md:block">
+        <ContactForm />
+        
+        <VisitUsSection />
+        
+        <Footer />
+      </div>
+
+      {/* Mobile View */}
+      <div className="block md:hidden">
+        <MobileContact />
+      </div>
       
       <style jsx>{`
         .contact-page {
