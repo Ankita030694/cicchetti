@@ -28,19 +28,19 @@ const AboutExperienceSection = () => {
   // Scroll-based transforms for image zoom
   const { scrollYProgress } = useScroll({
     target: experienceSectionRef,
-    offset: ["start center", "end center"]
+    offset: ["start 0.7", "end 0.3"]
   });
   
   // Transform scroll progress to scale values (1.0 to 1.2, then stop at 1.2)
   const conceptImageScale = useTransform(
     scrollYProgress,
-    [0.3, 0.6, 0.8, 1],
+    [0.2, 0.5, 0.7, 1],
     [1, 1.2, 1.2, 1.2]
   );
   
   const restaurantImageScale = useTransform(
     scrollYProgress,
-    [0.5, 0.8, 1, 1],
+    [0.3, 0.6, 0.8, 1],
     [1, 1.2, 1.2, 1.2]
   );
   

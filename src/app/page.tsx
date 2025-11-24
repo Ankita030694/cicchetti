@@ -148,7 +148,7 @@ export default function Home() {
                   marginTop: "40px"
                 }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
+                Cicchetti Italiano offers a warm, modern escape where plant-forward Venetian inspiration meets Tuscan charm. With earthy tones, crafted details and an inviting ambience that shifts through the day, it’s a place to relax, connect and savor memorable moments with those you love.
               </p>
             </div>
             <h2

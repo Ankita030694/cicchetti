@@ -28,7 +28,7 @@ export default function AboutPage() {
             <img 
               src="/abhero.jpg" 
               alt="About Cicchetti" 
-              className="about-full-image mt-75"
+              className="about-full-image mt-25"
             />
           </div>
         </section>
@@ -51,7 +51,6 @@ export default function AboutPage() {
           height: 100vh; /* Full viewport height */
           position: relative;
           overflow: hidden;
-          margin-top: -200px; /* Pull up to blend with hero blur */
           z-index: 1;
         }
         

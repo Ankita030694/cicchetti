@@ -14,7 +14,9 @@ export default function ContactPage() {
       
       {/* Desktop View */}
       <div className="hidden md:block">
-        <ContactForm />
+        <div className="contact-form-wrapper">
+          <ContactForm />
+        </div>
         
         <VisitUsSection />
         
@@ -28,8 +30,14 @@ export default function ContactPage() {
       
       <style jsx>{`
         .contact-page {
-          background-color: #3d4424;
+          background-color: #3B3F27;
           min-height: 100vh;
+        }
+
+        .contact-form-wrapper {
+          max-width: 1400px;
+          margin: 0 auto;
+          padding: 0 1rem;
         }
       `}</style>
     </main>

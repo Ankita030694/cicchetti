@@ -73,8 +73,8 @@ const ContactForm = () => {
 
       <style jsx>{`
         .contact-form-section {
-          background-color: #3d4424; /* Dark olive green from image */
-          padding: 6rem 2rem;
+          background-color: #3B3F27;
+          padding: 6rem 1rem;
           color: #E7E3E2;
           font-family: 'Aileron', sans-serif;
           margin-top: 80px; /* Space for fixed navbar */
@@ -93,7 +93,7 @@ const ContactForm = () => {
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
-            gap: 6rem;
+            gap: 4rem;
           }
         }
 
@@ -121,7 +121,7 @@ const ContactForm = () => {
         }
 
         .contact-heading {
-          font-size: 2.5rem;
+          font-size: 3rem;
           font-weight: 400;
           line-height: 1.2;
           margin-bottom: 1.5rem;
@@ -129,20 +129,22 @@ const ContactForm = () => {
           color: #E7E3E2;
           display: inline-block;
           font-family: 'Aileron', sans-serif;
+          letter-spacing: 0.5px;
+          font-size: 2.7rem !important;
         }
 
         .contact-subtext {
           font-size: 1.1rem;
           line-height: 1.6;
-          color: rgba(231, 227, 226, 0.7);
-          margin-bottom: 3rem;
+          color: #E7E3E2;
+          margin-bottom: 2rem;
           font-weight: 300;
         }
 
         .contact-divider {
           width: 100px;
           height: 1px;
-          background-color: rgba(231, 227, 226, 0.3);
+          background-color: #E7E3E2;
         }
 
         /* Right Side Styles */
@@ -155,7 +157,7 @@ const ContactForm = () => {
         .contact-form {
           display: flex;
           flex-direction: column;
-          gap: 2rem;
+          gap: 2.5rem;
         }
 
         .form-group {
@@ -167,10 +169,10 @@ const ContactForm = () => {
           width: 100%;
           background: transparent;
           border: none;
-          border-bottom: 1px solid rgba(231, 227, 226, 0.5);
-          padding: 0.75rem 0;
+          border-bottom: 1px solid #E7E3E2;
+          padding: 1.25rem 0;
           color: #E7E3E2;
-          font-size: 1rem;
+          font-size: 1.15rem;
           font-family: 'Aileron', sans-serif;
           font-weight: 300;
           transition: border-color 0.3s ease;
@@ -179,7 +181,7 @@ const ContactForm = () => {
 
         .form-input::placeholder,
         .form-textarea::placeholder {
-          color: rgba(231, 227, 226, 0.6);
+          color: #E7E3E2;
         }
 
         .form-input:focus,
@@ -189,20 +191,20 @@ const ContactForm = () => {
 
         .form-textarea {
           resize: vertical;
-          min-height: 100px;
+          min-height: 120px;
         }
 
         .form-submit-wrapper {
           display: flex;
-          justify-content: flex-end;
+          justify-content: center;
           margin-top: 1rem;
         }
 
         .submit-btn {
           background-color: #E7E3E2;
-          color: #3d4424;
+          color: #3B3F27;
           border: none;
-          padding: 0.75rem 3rem;
+          padding: 1rem 3.5rem;
           font-size: 1rem;
           font-weight: 500;
           text-transform: uppercase;
