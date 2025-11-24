@@ -20,15 +20,15 @@ export default function AboutPage() {
       
       {/* Desktop View */}
       <div className="hidden md:block">
-        <AboutHero />
+
         
         {/* Full Width Image Section */}
         <section className="about-image-section">
           <div className="about-image-container">
             <img 
-              src="/aboutbelow.jpg" 
+              src="/abhero.jpg" 
               alt="About Cicchetti" 
-              className="about-full-image"
+              className="about-full-image mt-75"
             />
           </div>
         </section>

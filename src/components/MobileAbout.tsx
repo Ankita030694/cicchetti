@@ -40,7 +40,7 @@ export default function MobileAbout() {
       {/* Experience Content */}
       <section className="relative w-full px-6 py-16 flex flex-col gap-12 text-center z-10">
         {/* Intro Text */}
-        <p className="text-[20px] leading-[29px] text-white/90" style={{ fontFamily: "Aileron, sans-serif" }}>
+        <p className="text-[22px] leading-[32px] text-white/90" style={{ fontFamily: "Aileron, sans-serif" }}>
           At Cicchetti Italiano, we champion the philosophy of sustainable dining—food that is good for the environment and good for you.
         </p>
 
@@ -55,10 +55,10 @@ export default function MobileAbout() {
             />
           </div>
           <div className="flex flex-col gap-4">
-            <h2 className="text-[35px] leading-[45px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Aileron, sans-serif" }}>
+            <h2 className="text-[38px] leading-[48px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Aileron, sans-serif" }}>
               Our Concept
             </h2>
-            <p className="text-[18px] leading-[28px] text-[rgba(231,227,226,0.7)]" style={{ fontFamily: "Aileron, sans-serif" }}>
+            <p className="text-[20px] leading-[30px] text-[rgba(231,227,226,0.7)]" style={{ fontFamily: "Aileron, sans-serif" }}>
               Our 100% vegetarian menu is crafted with organic, locally sourced ingredients, supporting ethical farming and minimizing our carbon footprint. We partner with local dairies that uphold animal welfare and sustainability at every step. Every element on your plate is made from scratch—from breads and sauces to handcrafted cheeses. Our signature sourdough pizzas undergo a 72-hour fermentation for better digestion and a naturally complex flavor.
             </p>
           </div>
@@ -75,10 +75,10 @@ export default function MobileAbout() {
             />
           </div>
           <div className="flex flex-col gap-4">
-            <h2 className="text-[35px] leading-[45px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Aileron, sans-serif" }}>
+            <h2 className="text-[38px] leading-[48px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Aileron, sans-serif" }}>
               THE RESTAURANT
             </h2>
-            <p className="text-[18px] leading-[28px] text-[rgba(231,227,226,0.7)]" style={{ fontFamily: "Aileron, sans-serif" }}>
+            <p className="text-[20px] leading-[30px] text-[rgba(231,227,226,0.7)]" style={{ fontFamily: "Aileron, sans-serif" }}>
               Feel the warmth and charm of our space, perfect for cherished moments with family, romantic evenings, and solo culinary adventures.
             </p>
           </div>

@@ -163,19 +163,19 @@ export default function Home() {
                 textTransform: "uppercase"
               }}
             >
-              What Experts are saying?
+              In Media
             </h2>
             
             <div className="news-grid">
-              {/* Guardian Review Article */}
+              {/* 1. Times Food Recommends */}
               <a
-                href="https://www.theguardian.com/food/2020/sep/13/jay-rayner-restaurant-review-delhi-house-cafe-manchester-there-is-a-lot-to-enjoy"
+                href="https://recipes.timesofindia.com/articles/food-trips/tf-recommends-places-to-explore-in-delhi/ncr-this-weekend/articleshow/124312495.cms"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="news-item"
               >
                 <div className="news-image">
-                  <img src="/ccfruit.png" alt="Delhi House Cafe Manchester review" />
+                  <img src="/1.jpeg" alt="Times Food Recommends" />
                 </div>
                 <div className="news-content">
                   <h3
@@ -190,23 +190,23 @@ export default function Home() {
                       marginTop: "0px"
                     }}
                   >
-                    Lorem Ipsum Dolor Sit Amet
+                    Times Food Recommends
                   </h3>
                   <p className="news-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Cicchetti Italiano offers a refined take on Italian cuisine with a 100% vegetarian menu, nestled in the heart of Khan Market.
                   </p>
                 </div>
               </a>
 
-              {/* Confidentials Liverpool Article */}
+              {/* 2. Deccan Chronicle - Guava */}
               <a
-                href="https://confidentials.com/liverpool/a-look-inside-delhi-house-cafe"
+                href="https://www.deccanchronicle.com/tabloid/hyderabad-chronicle/everybody-is-going-ga-ga-over-guava-1908114"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="news-item"
               >
                 <div className="news-image">
-                  <img src="/ccfruit.png" alt="Delhi House Cafe Liverpool opening" />
+                  <img src="/2.jpeg" alt="Deccan Chronicle Guava" />
                 </div>
                 <div className="news-content">
                   <h3
@@ -221,23 +221,23 @@ export default function Home() {
                       marginTop: "0px"
                     }}
                   >
-                    Consectetur Adipiscing Elit
+                    Deccan Chronicle
                   </h3>
                   <p className="news-text">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.
+                    Everybody is going ga-ga over guava. Chefs are experimenting with pink and white guavas in various dishes and drinks.
                   </p>
                 </div>
               </a>
 
-              {/* Liverpool Echo Article */}
+              {/* 3. Hindustan Times - Vodka */}
               <a
-                href="https://www.liverpoolecho.co.uk/whats-on/food-drink-news/gallery/first-look-inside-royal-albert-29941494"
+                href="https://www.hindustantimes.com/htcity/htcity-high-spirits/international-vodka-day-how-chefs-are-relooking-at-the-spirit-beyond-drinks-101759395832808.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="news-item"
               >
                 <div className="news-image">
-                  <img src="/ccfruit.png" alt="First look inside Royal Albert Dock restaurant" />
+                  <img src="/3.jpeg" alt="Hindustan Times Vodka" />
                 </div>
                 <div className="news-content">
                   <h3
@@ -252,10 +252,103 @@ export default function Home() {
                       marginTop: "0px"
                     }}
                   >
-                    Sed Do Eiusmod Tempor
+                    Hindustan Times
                   </h3>
                   <p className="news-text">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    International Vodka Day: How chefs are relooking at the spirit beyond drinks, integrating it into savory and sweet culinary creations.
+                  </p>
+                </div>
+              </a>
+
+              {/* 4. Curly Tales - Teachers' Day */}
+              <a
+                href="https://curlytales.com/india/food/ct-exclusive-on-teachers-day-indian-chefs-and-bartenders-thank-the-gurus-who-shaped-their-journeys/amp/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="news-item"
+              >
+                <div className="news-image">
+                  <img src="/4.jpeg" alt="Curly Tales Teachers Day" />
+                </div>
+                <div className="news-content">
+                  <h3
+                    className="news-title"
+                    style={{
+                      color: "#FFF",
+                      fontFamily: "Aileron",
+                      fontSize: "25px",
+                      fontStyle: "normal",
+                      fontWeight: 400,
+                      lineHeight: "40px",
+                      marginTop: "0px"
+                    }}
+                  >
+                    Curly Tales
+                  </h3>
+                  <p className="news-text">
+                    On Teachers' Day, Indian Chefs and Bartenders thank the Gurus who shaped their journeys and culinary philosophies.
+                  </p>
+                </div>
+              </a>
+
+              {/* 5. Deccan Chronicle - Summertime */}
+              <a
+                href="https://www.deccanchronicle.com/tabloid/hyderabad-chronicle/summertime-culinary-ride-1879733"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="news-item"
+              >
+                <div className="news-image">
+                  <img src="/5.jpeg" alt="Deccan Chronicle Summertime" />
+                </div>
+                <div className="news-content">
+                  <h3
+                    className="news-title"
+                    style={{
+                      color: "#FFF",
+                      fontFamily: "Aileron",
+                      fontSize: "25px",
+                      fontStyle: "normal",
+                      fontWeight: 400,
+                      lineHeight: "40px",
+                      marginTop: "0px"
+                    }}
+                  >
+                    Deccan Chronicle
+                  </h3>
+                  <p className="news-text">
+                    Summertime culinary ride: Exploring seasonal summer menus featuring fresh, vibrant ingredients perfect for the warmer months.
+                  </p>
+                </div>
+              </a>
+
+              {/* 6. Indian Express - Pasta */}
+              <a
+                href="https://indianexpress.com/article/lifestyle/food-wine/answered-why-italians-never-break-pasta-boiling-expert-9918120/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="news-item"
+              >
+                <div className="news-image">
+                  <img src="/6.jpeg" alt="Indian Express Pasta" />
+                </div>
+                <div className="news-content">
+                  <h3
+                    className="news-title"
+                    style={{
+                      color: "#FFF",
+                      fontFamily: "Aileron",
+                      fontSize: "25px",
+                      fontStyle: "normal",
+                      fontWeight: 400,
+                      lineHeight: "40px",
+                      marginTop: "0px"
+                    }}
+                  >
+                    The Indian Express
+                  </h3>
+                  <p className="news-text">
+                    Why Italians never break pasta before boiling: Experts explain the tradition and science behind keeping the strands whole.
                   </p>
                 </div>
               </a>

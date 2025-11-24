@@ -7,22 +7,10 @@ const AboutHero: React.FC = () => {
   return (
     <div className="about-hero-section">
       {/* Background Gradient */}
-      <div className="about-hero-bg"></div>
       
-      {/* Centered Content */}
-      <div className="about-hero-content">
-        <Image 
-          src="/ccfruit.png" 
-          alt="Cicchetti Fruit" 
-          width={300} 
-          height={300}
-          className="about-hero-image"
-          priority
-        />
-      </div>
+
       
-      {/* Blurred Bottom Effect */}
-      <div className="about-hero-blur-bottom"></div>
+    
       
       <style jsx>{`
         .about-hero-section {

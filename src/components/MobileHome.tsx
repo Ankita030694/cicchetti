@@ -202,36 +202,69 @@ export default function MobileHome() {
 
           {/* News Grid (Stacked for mobile) */}
           <div className="flex flex-col gap-12 w-full">
-            {/* Guardian */}
-            <a href="https://www.theguardian.com/food/2020/sep/13/jay-rayner-restaurant-review-delhi-house-cafe-manchester-there-is-a-lot-to-enjoy" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
+            {/* 1. Times Food Recommends */}
+            <a href="https://recipes.timesofindia.com/articles/food-trips/tf-recommends-places-to-explore-in-delhi/ncr-this-weekend/articleshow/124312495.cms" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
-                  <Image src="/ccfruit.png" alt="Review" fill className="object-cover" />
+                  <Image src="/1.jpeg" alt="Times Food Recommends" fill className="object-cover" />
                </div>
                <div className="flex flex-col gap-2 text-left">
-                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Aileron, sans-serif" }}>Lorem Ipsum Dolor Sit Amet</h3>
-                  <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aileron, sans-serif" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Aileron, sans-serif" }}>Times Food Recommends</h3>
+                  <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aileron, sans-serif" }}>Cicchetti Italiano offers a refined take on Italian cuisine with a 100% vegetarian menu, nestled in the heart of Khan Market.</p>
                </div>
             </a>
 
-            {/* Confidentials */}
-            <a href="https://confidentials.com/liverpool/a-look-inside-delhi-house-cafe" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
+            {/* 2. Deccan Chronicle - Guava */}
+            <a href="https://www.deccanchronicle.com/tabloid/hyderabad-chronicle/everybody-is-going-ga-ga-over-guava-1908114" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
-                  <Image src="/ccfruit.png" alt="Review" fill className="object-cover" />
+                  <Image src="/2.jpeg" alt="Deccan Chronicle Guava" fill className="object-cover" />
                </div>
                <div className="flex flex-col gap-2 text-left">
-                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Aileron, sans-serif" }}>Consectetur Adipiscing Elit</h3>
-                  <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aileron, sans-serif" }}>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.</p>
+                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Aileron, sans-serif" }}>Deccan Chronicle</h3>
+                  <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aileron, sans-serif" }}>Everybody is going ga-ga over guava. Chefs are experimenting with pink and white guavas in various dishes and drinks.</p>
                </div>
             </a>
 
-            {/* Echo */}
-            <a href="https://www.liverpoolecho.co.uk/whats-on/food-drink-news/gallery/first-look-inside-royal-albert-29941494" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
+            {/* 3. Hindustan Times - Vodka */}
+            <a href="https://www.hindustantimes.com/htcity/htcity-high-spirits/international-vodka-day-how-chefs-are-relooking-at-the-spirit-beyond-drinks-101759395832808.html" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
-                  <Image src="/ccfruit.png" alt="Review" fill className="object-cover" />
+                  <Image src="/3.jpeg" alt="Hindustan Times Vodka" fill className="object-cover" />
                </div>
                <div className="flex flex-col gap-2 text-left">
-                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Aileron, sans-serif" }}>Sed Do Eiusmod Tempor</h3>
-                  <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aileron, sans-serif" }}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Aileron, sans-serif" }}>Hindustan Times</h3>
+                  <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aileron, sans-serif" }}>International Vodka Day: How chefs are relooking at the spirit beyond drinks, integrating it into savory and sweet culinary creations.</p>
+               </div>
+            </a>
+
+            {/* 4. Curly Tales - Teachers' Day */}
+            <a href="https://curlytales.com/india/food/ct-exclusive-on-teachers-day-indian-chefs-and-bartenders-thank-the-gurus-who-shaped-their-journeys/amp/" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
+               <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
+                  <Image src="/4.jpeg" alt="Curly Tales Teachers Day" fill className="object-cover" />
+               </div>
+               <div className="flex flex-col gap-2 text-left">
+                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Aileron, sans-serif" }}>Curly Tales</h3>
+                  <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aileron, sans-serif" }}>On Teachers' Day, Indian Chefs and Bartenders thank the Gurus who shaped their journeys and culinary philosophies.</p>
+               </div>
+            </a>
+
+            {/* 5. Deccan Chronicle - Summertime */}
+            <a href="https://www.deccanchronicle.com/tabloid/hyderabad-chronicle/summertime-culinary-ride-1879733" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
+               <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
+                  <Image src="/5.jpeg" alt="Deccan Chronicle Summertime" fill className="object-cover" />
+               </div>
+               <div className="flex flex-col gap-2 text-left">
+                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Aileron, sans-serif" }}>Deccan Chronicle</h3>
+                  <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aileron, sans-serif" }}>Summertime culinary ride: Exploring seasonal summer menus featuring fresh, vibrant ingredients perfect for the warmer months.</p>
+               </div>
+            </a>
+
+            {/* 6. Indian Express - Pasta */}
+            <a href="https://indianexpress.com/article/lifestyle/food-wine/answered-why-italians-never-break-pasta-boiling-expert-9918120/" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
+               <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
+                  <Image src="/6.jpeg" alt="Indian Express Pasta" fill className="object-cover" />
+               </div>
+               <div className="flex flex-col gap-2 text-left">
+                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Aileron, sans-serif" }}>The Indian Express</h3>
+                  <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aileron, sans-serif" }}>Why Italians never break pasta before boiling: Experts explain the tradition and science behind keeping the strands whole.</p>
                </div>
             </a>
           </div>

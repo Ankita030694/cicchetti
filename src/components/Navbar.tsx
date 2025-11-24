@@ -137,9 +137,7 @@ const Navbar: React.FC = () => {
         <div className="navbar-desktop hidden md:flex">
           {/* Left - Make a Reservation */}
           <div className="navbar-left">
-            <button className="reservation-btn" onClick={openReservationPopup}>
-              MAKE A RESERVATION
-            </button>
+           
           </div>
           
           {/* Center - Cicchetti Logo */}
@@ -160,7 +158,27 @@ const Navbar: React.FC = () => {
           <div className="navbar-right">
             <Link href="/about" className="nav-btn">ABOUT US</Link>
             <CurlyDivider />
-            <button className="nav-btn">NEW & MORE</button>
+            <div className="relative group">
+              <button className="nav-btn">Menu <i className="fas fa-caret-down ml-2"></i></button>
+              <div className="absolute left-0 mt-2 w-48 bg-white text-gray-900 shadow-lg rounded z-50 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 pointer-events-none group-hover:pointer-events-auto group-focus-within:pointer-events-auto transition-opacity">
+                <a
+                  href="/food_menu.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block px-4 py-2 hover:bg-gray-200"
+                >
+                  Food Menu
+                </a>
+                <a
+                  href="/bvg_menu.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block px-4 py-2 hover:bg-gray-200"
+                >
+                  Beverage Menu
+                </a>
+              </div>
+            </div>
             <CurlyDivider />
             <Link href="/contact" className="nav-btn">CONTACT</Link>
           </div>
@@ -264,37 +282,6 @@ const Navbar: React.FC = () => {
         </div>
       )}
 
-      {/* Reservation Popup Modal */}
-      {isReservationPopupOpen && (
-        <div className="reservation-popup-overlay" onClick={closeReservationPopup}>
-          <div className="reservation-popup-content" onClick={(e) => e.stopPropagation()}>
-            <div className="reservation-popup-header">
-              <h2>Make a Reservation</h2>
-              <button 
-                className="reservation-popup-close" 
-                onClick={closeReservationPopup}
-                aria-label="Close reservation popup"
-              >
-                <i className="fas fa-times"></i>
-              </button>
-            </div>
-            <div className="reservation-widget-container">
-              <iframe 
-                src="https://www.opentable.co.uk/booking/restref/availability?rid=227751&lang=en-GB&color=1&dark=false&embed=true&iframe=true&otSource=Restaurant%20website"
-                width="100%"
-                height="500"
-                frameBorder="0"
-                title="OpenTable Reservation Widget"
-                allowTransparency={true}
-                allow="payment; camera; microphone; geolocation"
-                referrerPolicy="no-referrer-when-downgrade"
-                id="opentable-reservation-iframe"
-                sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-top-navigation-by-user-activation"
-              />
-            </div>
-          </div>
-        </div>
-      )}
     </nav>
   );
 };

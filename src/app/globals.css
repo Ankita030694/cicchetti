@@ -1484,7 +1484,7 @@ h1, h2, h3, h4, h5, h6 {
 .experience-intro {
   font-family: var(--font-playfair-display), "Playfair Display", serif;
   font-weight: 200;
-  font-size: 1.6rem;
+  font-size: 1.75rem;
   line-height: 1.8;
   color: var(--neutral-white);
   text-align: center;
@@ -1598,7 +1598,7 @@ h1, h2, h3, h4, h5, h6 {
 .experience-text {
   font-family: var(--font-playfair-display), "Playfair Display", serif;
   font-weight: 200;
-  font-size: 1.3rem;
+  font-size: 1.45rem;
   line-height: 1.8;
   color: var(--neutral-white);
   letter-spacing: 0.02em;
@@ -1749,7 +1749,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .experience-intro {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     max-width: 100%;
     margin-bottom: 3rem;
   }
@@ -1791,7 +1791,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .experience-text {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
     line-height: 1.7;
   }
@@ -1812,7 +1812,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .experience-intro {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 2.5rem;
   }
   
@@ -1836,7 +1836,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .experience-text {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.6;
   }
 }
@@ -1897,7 +1897,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pasta-lab-image img {
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   object-fit: cover;
   border-radius: 0;
   max-height: none;
@@ -1905,7 +1905,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pasta-lab-video {
   width: 100% !important;
-  height: 70vh !important;
+  height: 90vh !important;
   object-fit: cover !important;
   border-radius: inherit !important;
 }

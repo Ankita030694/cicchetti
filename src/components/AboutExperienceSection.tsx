@@ -227,10 +227,10 @@ const AboutExperienceSection = () => {
               style={{
                 color: "#E7E3E2",
                 fontFamily: "Aileron, sans-serif",
-                fontSize: "50px",
+                fontSize: "55px",
                 fontStyle: "normal",
                 fontWeight: 400,
-                lineHeight: "65px",
+                lineHeight: "70px",
                 textTransform: "uppercase"
               }}
             >
@@ -247,7 +247,7 @@ const AboutExperienceSection = () => {
                 fontFamily: "Aileron",
                 fontStyle: "normal",
                 fontWeight: 300,
-                lineHeight: "39px"
+                lineHeight: "42px"
               }}
             >
               {splitTextIntoWords("Our 100% vegetarian menu is crafted with organic, locally sourced ingredients, supporting ethical farming and minimizing our carbon footprint. We partner with local dairies that uphold animal welfare and sustainability at every step. Every element on your plate is made from scratch—from breads and sauces to handcrafted cheeses. Our signature sourdough pizzas undergo a 72-hour fermentation for better digestion and a naturally complex flavor.")}
@@ -271,10 +271,10 @@ const AboutExperienceSection = () => {
               style={{
                 color: "#E7E3E2",
                 fontFamily: "Aileron, sans-serif",
-                fontSize: "50px",
+                fontSize: "55px",
                 fontStyle: "normal",
                 fontWeight: 400,
-                lineHeight: "65px",
+                lineHeight: "70px",
                 textTransform: "uppercase"
               }}
             >
@@ -290,7 +290,7 @@ const AboutExperienceSection = () => {
                 fontFamily: "Aileron",
                 fontStyle: "normal",
                 fontWeight: 300,
-                lineHeight: "39px"
+                lineHeight: "42px"
               }}
             >
               {splitTextIntoWords("Feel the warmth and charm of our space, perfect for cherished moments with family, romantic evenings, and solo culinary adventures.")}
