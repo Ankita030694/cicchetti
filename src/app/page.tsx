@@ -10,8 +10,6 @@ import VisitUsSection from '../components/VisitUsSection';
 import MobileHome from '../components/MobileHome';
 
 export default function Home() {
-  const [showReservationModal, setShowReservationModal] = useState(false);
-
   return (
     <main>
       {/* Desktop View */}
@@ -365,17 +363,6 @@ export default function Home() {
       {/* Mobile View */}
       <div className="block md:hidden">
         <MobileHome />
-      </div>
-
-      {/* Mobile Reservation Overlay */}
-      <div className="mobile-reservation-overlay">
-        <button 
-          className="mobile-reservation-btn"
-          onClick={() => setShowReservationModal(true)}
-        >
-          <i className="fas fa-calendar-alt"></i>
-          <span>Reserve Table</span>
-        </button>
       </div>
     </main>
   );
