@@ -27,11 +27,11 @@ export default function Home() {
                 marginBottom: '5rem',
                 color: 'rgba(231, 227, 226, 0.70)',
                 textAlign: 'center',
-                fontFamily: 'Aston, Deluce',
-                fontSize: '30px',
+                fontFamily: '"Great Vibes", cursive',
+                fontSize: '35px',
                 fontStyle: 'normal',
-                fontWeight: 300,
-                lineHeight: '39px'
+                fontWeight: 400,
+                lineHeight: '45px'
               }}
             >
               Italy’s Small-Plate Art, Reimagined in Delhi

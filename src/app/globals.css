@@ -2006,15 +2006,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .news-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  display: flex;
+  overflow-x: auto;
+  gap: 2rem;
+  scroll-snap-type: x mandatory;
+  padding: 1rem 0 2rem 0;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  width: 100%;
+}
+
+.news-grid::-webkit-scrollbar {
+  display: none;
 }
 
 .news-item {
+  flex: 0 0 350px;
+  scroll-snap-align: start;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  transition: transform 0.3s ease;
 }
 
 .news-image {

@@ -56,7 +56,7 @@ export default function MobileHome() {
             className="object-contain"
           />
         </div>
-        <p className="relative z-10 font-['Aston,Deluce'] font-light text-[25px] leading-[32px] text-[rgba(231,227,226,0.7)]">
+        <p className="relative z-10 font-['Great_Vibes',_cursive] font-light text-[30px] leading-[36px] text-[rgba(231,227,226,0.7)]">
           Italy’s Small-Plate Art, Reimagined in Delhi
         </p>
 
@@ -201,9 +201,9 @@ export default function MobileHome() {
           </h2>
 
           {/* News Grid (Stacked for mobile) */}
-          <div className="flex flex-col gap-12 w-full">
+          <div className="flex flex-row gap-6 overflow-x-auto snap-x snap-mandatory w-full pb-8 px-4" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
             {/* 1. Times Food Recommends */}
-            <a href="https://recipes.timesofindia.com/articles/food-trips/tf-recommends-places-to-explore-in-delhi/ncr-this-weekend/articleshow/124312495.cms" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
+            <a href="https://recipes.timesofindia.com/articles/food-trips/tf-recommends-places-to-explore-in-delhi/ncr-this-weekend/articleshow/124312495.cms" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4 min-w-[85vw] snap-center">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
                   <Image src="/1.jpeg" alt="Times Food Recommends" fill className="object-cover" />
                </div>
@@ -214,7 +214,7 @@ export default function MobileHome() {
             </a>
 
             {/* 2. Deccan Chronicle - Guava */}
-            <a href="https://www.deccanchronicle.com/tabloid/hyderabad-chronicle/everybody-is-going-ga-ga-over-guava-1908114" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
+            <a href="https://www.deccanchronicle.com/tabloid/hyderabad-chronicle/everybody-is-going-ga-ga-over-guava-1908114" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4 min-w-[85vw] snap-center">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
                   <Image src="/2.jpeg" alt="Deccan Chronicle Guava" fill className="object-cover" />
                </div>
@@ -225,7 +225,7 @@ export default function MobileHome() {
             </a>
 
             {/* 3. Hindustan Times - Vodka */}
-            <a href="https://www.hindustantimes.com/htcity/htcity-high-spirits/international-vodka-day-how-chefs-are-relooking-at-the-spirit-beyond-drinks-101759395832808.html" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
+            <a href="https://www.hindustantimes.com/htcity/htcity-high-spirits/international-vodka-day-how-chefs-are-relooking-at-the-spirit-beyond-drinks-101759395832808.html" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4 min-w-[85vw] snap-center">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
                   <Image src="/3.jpeg" alt="Hindustan Times Vodka" fill className="object-cover" />
                </div>
@@ -236,7 +236,7 @@ export default function MobileHome() {
             </a>
 
             {/* 4. Curly Tales - Teachers' Day */}
-            <a href="https://curlytales.com/india/food/ct-exclusive-on-teachers-day-indian-chefs-and-bartenders-thank-the-gurus-who-shaped-their-journeys/amp/" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
+            <a href="https://curlytales.com/india/food/ct-exclusive-on-teachers-day-indian-chefs-and-bartenders-thank-the-gurus-who-shaped-their-journeys/amp/" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4 min-w-[85vw] snap-center">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
                   <Image src="/4.jpeg" alt="Curly Tales Teachers Day" fill className="object-cover" />
                </div>
@@ -247,7 +247,7 @@ export default function MobileHome() {
             </a>
 
             {/* 5. Deccan Chronicle - Summertime */}
-            <a href="https://www.deccanchronicle.com/tabloid/hyderabad-chronicle/summertime-culinary-ride-1879733" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
+            <a href="https://www.deccanchronicle.com/tabloid/hyderabad-chronicle/summertime-culinary-ride-1879733" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4 min-w-[85vw] snap-center">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
                   <Image src="/5.jpeg" alt="Deccan Chronicle Summertime" fill className="object-cover" />
                </div>
@@ -258,7 +258,7 @@ export default function MobileHome() {
             </a>
 
             {/* 6. Indian Express - Pasta */}
-            <a href="https://indianexpress.com/article/lifestyle/food-wine/answered-why-italians-never-break-pasta-boiling-expert-9918120/" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4">
+            <a href="https://indianexpress.com/article/lifestyle/food-wine/answered-why-italians-never-break-pasta-boiling-expert-9918120/" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4 min-w-[85vw] snap-center">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
                   <Image src="/6.jpeg" alt="Indian Express Pasta" fill className="object-cover" />
                </div>
