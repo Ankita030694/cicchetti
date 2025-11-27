@@ -226,7 +226,7 @@ const ExperienceSection = () => {
               transition={{ duration: 0.8, ease: "easeOut" }}
               style={{
                 color: "#E7E3E2",
-                fontFamily: "Aileron, sans-serif",
+                fontFamily: "Aston, Deluce, sans-serif",
                 fontSize: "50px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -244,7 +244,7 @@ const ExperienceSection = () => {
               transition={{ duration: 0.8, ease: "easeOut" }}
               style={{
                 color: "rgba(231, 227, 226, 0.70)",
-                fontFamily: "Aileron",
+                fontFamily: "Aston, Deluce",
                 fontStyle: "normal",
                 fontWeight: 300,
                 lineHeight: "39px"
@@ -270,7 +270,7 @@ const ExperienceSection = () => {
               transition={{ duration: 0.8, ease: "easeOut" }}
               style={{
                 color: "#E7E3E2",
-                fontFamily: "Aileron, sans-serif",
+                fontFamily: "Aston, Deluce, sans-serif",
                 fontSize: "50px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -287,7 +287,7 @@ const ExperienceSection = () => {
               variants={textRevealVariants}
               style={{
                 color: "rgba(231, 227, 226, 0.70)",
-                fontFamily: "Aileron",
+                fontFamily: "Aston, Deluce",
                 fontStyle: "normal",
                 fontWeight: 300,
                 lineHeight: "39px"

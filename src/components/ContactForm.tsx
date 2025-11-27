@@ -76,7 +76,7 @@ const ContactForm = () => {
           background-color: #3B3F27;
           padding: 6rem 1rem;
           color: #E7E3E2;
-          font-family: 'Aileron', sans-serif;
+          font-family: 'Aston', 'Deluce', sans-serif;
           margin-top: 80px; /* Space for fixed navbar */
         }
 
@@ -128,7 +128,7 @@ const ContactForm = () => {
           text-transform: uppercase;
           color: #E7E3E2;
           display: inline-block;
-          font-family: 'Aileron', sans-serif;
+          font-family: 'Aston', 'Deluce', sans-serif;
           letter-spacing: 0.5px;
           font-size: 2.7rem !important;
         }
@@ -173,7 +173,7 @@ const ContactForm = () => {
           padding: 1.25rem 0;
           color: #E7E3E2;
           font-size: 1.15rem;
-          font-family: 'Aileron', sans-serif;
+          font-family: 'Aston', 'Deluce', sans-serif;
           font-weight: 300;
           transition: border-color 0.3s ease;
           outline: none;
@@ -210,7 +210,7 @@ const ContactForm = () => {
           text-transform: uppercase;
           cursor: pointer;
           transition: all 0.3s ease;
-          font-family: 'Aileron', sans-serif;
+          font-family: 'Aston', 'Deluce', sans-serif;
         }
 
         .submit-btn:hover {

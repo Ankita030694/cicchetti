@@ -27,7 +27,7 @@ export default function Home() {
                 marginBottom: '5rem',
                 color: 'rgba(231, 227, 226, 0.70)',
                 textAlign: 'center',
-                fontFamily: 'Aileron',
+                fontFamily: 'Aston, Deluce',
                 fontSize: '30px',
                 fontStyle: 'normal',
                 fontWeight: 300,
@@ -57,7 +57,7 @@ export default function Home() {
          <section className="pasta-lab-section md:mx-20">
           <h1 className="pasta-lab-heading"   style={{
                     color: "#E7E3E2",
-                    fontFamily: "Aileron, sans-serif",
+                    fontFamily: "Aston, Deluce, sans-serif",
                     fontSize: "50px",
                     fontStyle: "normal",
                     fontWeight: 400,
@@ -69,7 +69,7 @@ export default function Home() {
                     style={{
                       color: "#E7E3E2",
                       textAlign: "center",
-                      fontFamily: "Aileron, sans-serif",
+                      fontFamily: "Aston, Deluce, sans-serif",
                       fontSize: "20px",
                       fontStyle: "italic",
                       fontWeight: 400,
@@ -83,7 +83,7 @@ export default function Home() {
                     <span
                       style={{
                         color: "rgba(231, 227, 226, 0.70)",
-                        fontFamily: "Aileron, sans-serif",
+                        fontFamily: "Aston, Deluce, sans-serif",
                         fontSize: "20px",
                         fontStyle: "normal",
                         fontWeight: 300,
@@ -136,7 +136,7 @@ export default function Home() {
                 style={{
                   color: "#FFF",
                   textAlign: "center",
-                  fontFamily: "Aileron",
+                  fontFamily: "Aston, Deluce",
                   fontSize: "20px",
                   fontStyle: "normal",
                   fontWeight: 300,
@@ -153,7 +153,7 @@ export default function Home() {
               style={{
                 color: "#FFF",
                 textAlign: "center",
-                fontFamily: "Aileron",
+                fontFamily: "Aston, Deluce",
                 fontSize: "45px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -180,7 +180,7 @@ export default function Home() {
                     className="news-title"
                     style={{
                       color: "#FFF",
-                      fontFamily: "Aileron",
+                      fontFamily: "Aston, Deluce",
                       fontSize: "25px",
                       fontStyle: "normal",
                       fontWeight: 400,
@@ -211,7 +211,7 @@ export default function Home() {
                     className="news-title"
                     style={{
                       color: "#FFF",
-                      fontFamily: "Aileron",
+                      fontFamily: "Aston, Deluce",
                       fontSize: "25px",
                       fontStyle: "normal",
                       fontWeight: 400,
@@ -242,7 +242,7 @@ export default function Home() {
                     className="news-title"
                     style={{
                       color: "#FFF",
-                      fontFamily: "Aileron",
+                      fontFamily: "Aston, Deluce",
                       fontSize: "25px",
                       fontStyle: "normal",
                       fontWeight: 400,
@@ -273,7 +273,7 @@ export default function Home() {
                     className="news-title"
                     style={{
                       color: "#FFF",
-                      fontFamily: "Aileron",
+                      fontFamily: "Aston, Deluce",
                       fontSize: "25px",
                       fontStyle: "normal",
                       fontWeight: 400,
@@ -304,7 +304,7 @@ export default function Home() {
                     className="news-title"
                     style={{
                       color: "#FFF",
-                      fontFamily: "Aileron",
+                      fontFamily: "Aston, Deluce",
                       fontSize: "25px",
                       fontStyle: "normal",
                       fontWeight: 400,
@@ -335,7 +335,7 @@ export default function Home() {
                     className="news-title"
                     style={{
                       color: "#FFF",
-                      fontFamily: "Aileron",
+                      fontFamily: "Aston, Deluce",
                       fontSize: "25px",
                       fontStyle: "normal",
                       fontWeight: 400,

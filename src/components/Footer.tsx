@@ -16,7 +16,7 @@ export default function Footer() {
             className="footer-heading"
             style={{
               color: '#7E884D',
-              fontFamily: 'Aileron',
+              fontFamily: 'Aston, Deluce',
               fontSize: '25px',
               fontStyle: 'normal',
               fontWeight: 400,
@@ -34,7 +34,7 @@ export default function Footer() {
             className="footer-heading"
             style={{
               color: '#7E884D',
-              fontFamily: 'Aileron',
+              fontFamily: 'Aston, Deluce',
               fontSize: '25px',
               fontStyle: 'normal',
               fontWeight: 400,

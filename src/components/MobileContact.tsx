@@ -10,10 +10,10 @@ export default function MobileContact() {
       {/* Contact Form Section */}
       <section className="relative w-full px-6 pt-32 pb-16 flex flex-col gap-10">
         <div className="flex flex-col gap-4">
-           <h2 className="text-[35px] leading-[45px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Aileron, sans-serif" }}>
+           <h2 className="text-[35px] leading-[45px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
             SEND A MESSAGE TO US
            </h2>
-           <p className="text-[18px] leading-[28px] text-[rgba(231,227,226,0.7)] font-light" style={{ fontFamily: "Aileron, sans-serif" }}>
+           <p className="text-[18px] leading-[28px] text-[rgba(231,227,226,0.7)] font-light" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
             Tell us how we can help. We aim to respond to all inquiries within 24 hours.
            </p>
            <div className="w-[100px] h-[1px] bg-[#E7E3E2]/30 mt-2"></div>
@@ -26,7 +26,7 @@ export default function MobileContact() {
                 type="text" 
                 placeholder="Your Full Name" 
                 className="w-full bg-transparent border-b border-[#E7E3E2]/50 py-3 text-[#E7E3E2] placeholder-[#E7E3E2]/60 focus:outline-none focus:border-[#E7E3E2] transition-colors font-light text-[18px]"
-                style={{ fontFamily: "Aileron, sans-serif" }}
+                style={{ fontFamily: "Aston, Deluce, sans-serif" }}
                 required
               />
             </div>
@@ -36,7 +36,7 @@ export default function MobileContact() {
                 type="email" 
                 placeholder="Email Address" 
                 className="w-full bg-transparent border-b border-[#E7E3E2]/50 py-3 text-[#E7E3E2] placeholder-[#E7E3E2]/60 focus:outline-none focus:border-[#E7E3E2] transition-colors font-light text-[18px]"
-                style={{ fontFamily: "Aileron, sans-serif" }}
+                style={{ fontFamily: "Aston, Deluce, sans-serif" }}
                 required
               />
             </div>
@@ -46,7 +46,7 @@ export default function MobileContact() {
                 type="text" 
                 placeholder="Subject of Inquiry" 
                 className="w-full bg-transparent border-b border-[#E7E3E2]/50 py-3 text-[#E7E3E2] placeholder-[#E7E3E2]/60 focus:outline-none focus:border-[#E7E3E2] transition-colors font-light text-[18px]"
-                style={{ fontFamily: "Aileron, sans-serif" }}
+                style={{ fontFamily: "Aston, Deluce, sans-serif" }}
                 required
               />
             </div>
@@ -56,7 +56,7 @@ export default function MobileContact() {
                 placeholder="Your Message" 
                 rows={4}
                 className="w-full bg-transparent border-b border-[#E7E3E2]/50 py-3 text-[#E7E3E2] placeholder-[#E7E3E2]/60 focus:outline-none focus:border-[#E7E3E2] transition-colors font-light text-[18px] resize-none"
-                style={{ fontFamily: "Aileron, sans-serif" }}
+                style={{ fontFamily: "Aston, Deluce, sans-serif" }}
                 required
               ></textarea>
             </div>
@@ -65,7 +65,7 @@ export default function MobileContact() {
               <button 
                 type="submit" 
                 className="bg-[#E7E3E2] text-[#3d4424] py-3 px-12 text-[16px] font-medium uppercase hover:bg-white transition-all shadow-lg"
-                style={{ fontFamily: "Aileron, sans-serif" }}
+                style={{ fontFamily: "Aston, Deluce, sans-serif" }}
               >
                 SUBMIT
               </button>
@@ -75,14 +75,14 @@ export default function MobileContact() {
 
       {/* Visit Us Section */}
       <section className="relative w-full px-6 py-16 flex flex-col gap-8">
-         <h2 className="text-[32px] leading-[32px] text-white uppercase" style={{ fontFamily: "Aileron, sans-serif" }}>
+         <h2 className="text-[32px] leading-[32px] text-white uppercase" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
             VISIT US
          </h2>
 
          {/* Phone */}
          <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Aileron, sans-serif" }}>PHONE:</h3>
-            <div className="flex flex-col gap-4 text-white" style={{ fontFamily: "Aileron, sans-serif" }}>
+            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>PHONE:</h3>
+            <div className="flex flex-col gap-4 text-white" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
                <div>
                   <p className="text-[25px] underline decoration-1 underline-offset-4 mb-1">Cicchetti</p>
                   <p className="text-[21px]">+91 96505 69946</p>
@@ -100,8 +100,8 @@ export default function MobileContact() {
 
          {/* Hours */}
          <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Aileron, sans-serif" }}>HOURS:</h3>
-            <div className="flex flex-col gap-2 text-white" style={{ fontFamily: "Aileron, sans-serif" }}>
+            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>HOURS:</h3>
+            <div className="flex flex-col gap-2 text-white" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
                {['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'].map(day => (
                   <div key={day} className="flex justify-between max-w-[300px]">
                      <span className="text-[20px]">{day}:</span>
@@ -113,8 +113,8 @@ export default function MobileContact() {
 
          {/* Address */}
          <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] text-[#7e884d] uppercase" style={{ fontFamily: "Aileron, sans-serif" }}>Visit Us:</h3>
-            <p className="text-[21px] text-white leading-[30px]" style={{ fontFamily: "Aileron, sans-serif" }}>
+            <h3 className="text-[24px] text-[#7e884d] uppercase" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>Visit Us:</h3>
+            <p className="text-[21px] text-white leading-[30px]" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
                First Floor, 70, Khan Market, Rabindra Nagar, New Delhi, Delhi 110003
             </p>
          </div>
@@ -142,13 +142,13 @@ export default function MobileContact() {
             <Image src="/logos/cclogo1.png" alt="Footer logo" width={200} height={200} />
          </div>
          <div className="flex flex-col gap-4 items-center">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Aileron, sans-serif" }}>JOIN OUR TEAM</h3>
-            <p className="text-[21px] text-white" style={{ fontFamily: "Aileron, sans-serif" }}>E: info@cicchetti.com</p>
+            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>JOIN OUR TEAM</h3>
+            <p className="text-[21px] text-white" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>E: info@cicchetti.com</p>
          </div>
 
          {/* Follow Our Journey */}
          <div className="flex flex-col gap-6 items-center">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Aileron, sans-serif" }}>FOLLOW OUR JOURNEY</h3>
+            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>FOLLOW OUR JOURNEY</h3>
             <div className="flex gap-8 justify-center">
                <a href="#" className="text-white text-3xl hover:text-[#7e884d] transition-colors"><i className="fab fa-instagram"></i></a>
                <a href="#" className="text-white text-3xl hover:text-[#7e884d] transition-colors"><i className="fab fa-facebook-f"></i></a>
