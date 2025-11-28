@@ -10,12 +10,13 @@ export default function MobileHome() {
       {/* Hero Section */}
       <section className="relative h-[100vh] w-full overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
-          <Image
-            src="/herobgcc.png"
-            alt="Hero Background"
-            fill
-            className="object-cover object-center"
-            priority
+          <video
+            src="/hero-vid.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="object-cover w-full h-full"
           />
         </div>
         <div className="absolute inset-0 bg-[rgba(49,49,49,0.42)]" />
