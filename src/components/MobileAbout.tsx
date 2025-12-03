@@ -40,7 +40,7 @@ export default function MobileAbout() {
       {/* Experience Content */}
       <section className="relative w-full px-6 py-16 flex flex-col gap-12 text-center z-10">
         {/* Intro Text */}
-        <p className="text-[22px] leading-[32px] text-white/90" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
+        <p className="text-[22px] leading-[32px] text-white/90" style={{ fontFamily: "Aston, sans-serif" }}>
           At Cicchetti Italiano, we champion the philosophy of sustainable dining—food that is good for the environment and good for you.
         </p>
 
@@ -55,10 +55,10 @@ export default function MobileAbout() {
             />
           </div>
           <div className="flex flex-col gap-4">
-            <h2 className="text-[38px] leading-[48px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
+            <h2 className="text-[38px] leading-[48px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
               Our Concept
             </h2>
-            <p className="text-[20px] leading-[30px] text-[rgba(231,227,226,0.7)]" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
+            <p className="text-[20px] leading-[30px] text-[rgba(231,227,226,0.7)]" style={{ fontFamily: "Aston, sans-serif" }}>
               Our 100% vegetarian menu is crafted with organic, locally sourced ingredients, supporting ethical farming and minimizing our carbon footprint. We partner with local dairies that uphold animal welfare and sustainability at every step. Every element on your plate is made from scratch—from breads and sauces to handcrafted cheeses. Our signature sourdough pizzas undergo a 72-hour fermentation for better digestion and a naturally complex flavor.
             </p>
           </div>
@@ -75,10 +75,10 @@ export default function MobileAbout() {
             />
           </div>
           <div className="flex flex-col gap-4">
-            <h2 className="text-[38px] leading-[48px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
+            <h2 className="text-[38px] leading-[48px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
               THE RESTAURANT
             </h2>
-            <p className="text-[20px] leading-[30px] text-[rgba(231,227,226,0.7)]" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
+            <p className="text-[20px] leading-[30px] text-[rgba(231,227,226,0.7)]" style={{ fontFamily: "Aston, sans-serif" }}>
               Feel the warmth and charm of our space, perfect for cherished moments with family, romantic evenings, and solo culinary adventures.
             </p>
           </div>
@@ -87,14 +87,14 @@ export default function MobileAbout() {
 
       {/* Visit Us Section */}
       <section className="relative w-full px-6 py-16 flex flex-col gap-8">
-         <h2 className="text-[32px] leading-[32px] text-white uppercase" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
+         <h2 className="text-[32px] leading-[32px] text-white uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
             VISIT US
          </h2>
 
          {/* Phone */}
          <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>PHONE:</h3>
-            <div className="flex flex-col gap-4 text-white" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
+            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Deluce, sans-serif" }}>PHONE:</h3>
+            <div className="flex flex-col gap-4 text-white" style={{ fontFamily: "Aston, sans-serif" }}>
                <div>
                   <p className="text-[25px] underline decoration-1 underline-offset-4 mb-1">Cicchetti</p>
                   <p className="text-[21px]">+91 96505 69946</p>
@@ -112,8 +112,8 @@ export default function MobileAbout() {
 
          {/* Hours */}
          <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>HOURS:</h3>
-            <div className="flex flex-col gap-2 text-white" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
+            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Deluce, sans-serif" }}>HOURS:</h3>
+            <div className="flex flex-col gap-2 text-white" style={{ fontFamily: "Aston, sans-serif" }}>
                {['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'].map(day => (
                   <div key={day} className="flex justify-between max-w-[300px]">
                      <span className="text-[20px]">{day}:</span>
@@ -125,8 +125,8 @@ export default function MobileAbout() {
 
          {/* Address */}
          <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] text-[#7e884d] uppercase" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>Visit Us:</h3>
-            <p className="text-[21px] text-white leading-[30px]" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>
+            <h3 className="text-[24px] text-[#7e884d] uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>Visit Us:</h3>
+            <p className="text-[21px] text-white leading-[30px]" style={{ fontFamily: "Aston, sans-serif" }}>
                First Floor, 70, Khan Market, Rabindra Nagar, New Delhi, Delhi 110003
             </p>
          </div>
@@ -154,13 +154,13 @@ export default function MobileAbout() {
             <Image src="/logos/cclogo1.png" alt="Footer logo" width={200} height={200} />
          </div>
          <div className="flex flex-col gap-4 items-center">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>JOIN OUR TEAM</h3>
-            <p className="text-[21px] text-white" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>E: info@cicchetti.com</p>
+            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Deluce, sans-serif" }}>JOIN OUR TEAM</h3>
+            <p className="text-[21px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>E: info@cicchetti.com</p>
          </div>
 
          {/* Follow Our Journey */}
          <div className="flex flex-col gap-6 items-center">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Aston, Deluce, sans-serif" }}>FOLLOW OUR JOURNEY</h3>
+            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Deluce, sans-serif" }}>FOLLOW OUR JOURNEY</h3>
             <div className="flex gap-8 justify-center">
                <a href="#" className="text-white text-3xl hover:text-[#7e884d] transition-colors"><i className="fab fa-instagram"></i></a>
                <a href="#" className="text-white text-3xl hover:text-[#7e884d] transition-colors"><i className="fab fa-facebook-f"></i></a>

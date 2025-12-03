@@ -55,9 +55,9 @@ export default function Home() {
         
          {/* Images & Video Section */}
          <section className="pasta-lab-section md:mx-20">
-          <h1 className="pasta-lab-heading"   style={{
+                  <h1 className="pasta-lab-heading"   style={{
                     color: "#E7E3E2",
-                    fontFamily: "Aston, Deluce, sans-serif",
+                    fontFamily: "Deluce, sans-serif",
                     fontSize: "50px",
                     fontStyle: "normal",
                     fontWeight: 400,
@@ -69,7 +69,7 @@ export default function Home() {
                     style={{
                       color: "#E7E3E2",
                       textAlign: "center",
-                      fontFamily: "Aston, Deluce, sans-serif",
+                      fontFamily: "Aston, sans-serif",
                       fontSize: "20px",
                       fontStyle: "italic",
                       fontWeight: 400,
@@ -79,11 +79,11 @@ export default function Home() {
                       marginBottom: "40px"
                     }}
                   >
-                    “I touch people’s lives with what I do, and I love it.”<br />
+                    "I touch people's lives with what I do, and I love it."<br />
                     <span
                       style={{
                         color: "rgba(231, 227, 226, 0.70)",
-                        fontFamily: "Aston, Deluce, sans-serif",
+                        fontFamily: "Aston, sans-serif",
                         fontSize: "20px",
                         fontStyle: "normal",
                         fontWeight: 300,
@@ -136,7 +136,7 @@ export default function Home() {
                 style={{
                   color: "#FFF",
                   textAlign: "center",
-                  fontFamily: "Aston, Deluce",
+                  fontFamily: "Aston, sans-serif",
                   fontSize: "20px",
                   fontStyle: "normal",
                   fontWeight: 300,
@@ -146,14 +146,14 @@ export default function Home() {
                   marginTop: "40px"
                 }}
               >
-                Cicchetti Italiano offers a warm, modern escape where plant-forward Venetian inspiration meets Tuscan charm. With earthy tones, crafted details and an inviting ambience that shifts through the day, it’s a place to relax, connect and savor memorable moments with those you love.
+                Cicchetti Italiano offers a warm, modern escape where plant-forward Venetian inspiration meets Tuscan charm. With earthy tones, crafted details and an inviting ambience that shifts through the day, it's a place to relax, connect and savor memorable moments with those you love.
               </p>
             </div>
             <h2
               style={{
                 color: "#FFF",
                 textAlign: "center",
-                fontFamily: "Aston, Deluce",
+                fontFamily: "Deluce, sans-serif",
                 fontSize: "45px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -180,7 +180,7 @@ export default function Home() {
                     className="news-title"
                     style={{
                       color: "#FFF",
-                      fontFamily: "Aston, Deluce",
+                      fontFamily: "Deluce, sans-serif",
                       fontSize: "25px",
                       fontStyle: "normal",
                       fontWeight: 400,
@@ -211,7 +211,7 @@ export default function Home() {
                     className="news-title"
                     style={{
                       color: "#FFF",
-                      fontFamily: "Aston, Deluce",
+                      fontFamily: "Deluce, sans-serif",
                       fontSize: "25px",
                       fontStyle: "normal",
                       fontWeight: 400,
@@ -242,7 +242,7 @@ export default function Home() {
                     className="news-title"
                     style={{
                       color: "#FFF",
-                      fontFamily: "Aston, Deluce",
+                      fontFamily: "Deluce, sans-serif",
                       fontSize: "25px",
                       fontStyle: "normal",
                       fontWeight: 400,
@@ -273,7 +273,7 @@ export default function Home() {
                     className="news-title"
                     style={{
                       color: "#FFF",
-                      fontFamily: "Aston, Deluce",
+                      fontFamily: "Deluce, sans-serif",
                       fontSize: "25px",
                       fontStyle: "normal",
                       fontWeight: 400,
@@ -304,7 +304,7 @@ export default function Home() {
                     className="news-title"
                     style={{
                       color: "#FFF",
-                      fontFamily: "Aston, Deluce",
+                      fontFamily: "Deluce, sans-serif",
                       fontSize: "25px",
                       fontStyle: "normal",
                       fontWeight: 400,
@@ -335,7 +335,7 @@ export default function Home() {
                     className="news-title"
                     style={{
                       color: "#FFF",
-                      fontFamily: "Aston, Deluce",
+                      fontFamily: "Deluce, sans-serif",
                       fontSize: "25px",
                       fontStyle: "normal",
                       fontWeight: 400,

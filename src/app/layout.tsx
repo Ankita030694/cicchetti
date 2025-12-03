@@ -28,6 +28,7 @@ export default function RootLayout({
                <link href="https://fonts.cdnfonts.com/css/merchant" rel="stylesheet" />
                <link href="https://fonts.cdnfonts.com/css/merchant-extra-light" rel="stylesheet" />
                <link href="https://fonts.cdnfonts.com/css/aston" rel="stylesheet" />
+               <link href="https://fonts.cdnfonts.com/css/deluce" rel="stylesheet" />
         <link 
           rel="stylesheet" 
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"

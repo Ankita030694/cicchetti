@@ -226,7 +226,7 @@ const AboutExperienceSection = () => {
               transition={{ duration: 0.8, ease: "easeOut" }}
               style={{
                 color: "#E7E3E2",
-                fontFamily: "Aston, Deluce, sans-serif",
+                fontFamily: "Deluce, sans-serif",
                 fontSize: "55px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -244,7 +244,7 @@ const AboutExperienceSection = () => {
               transition={{ duration: 0.8, ease: "easeOut" }}
               style={{
                 color: "rgba(231, 227, 226, 0.70)",
-                fontFamily: "Aston, Deluce",
+                fontFamily: "Aston, sans-serif",
                 fontStyle: "normal",
                 fontWeight: 300,
                 lineHeight: "42px"
@@ -270,7 +270,7 @@ const AboutExperienceSection = () => {
               transition={{ duration: 0.8, ease: "easeOut" }}
               style={{
                 color: "#E7E3E2",
-                fontFamily: "Aston, Deluce, sans-serif",
+                fontFamily: "Deluce, sans-serif",
                 fontSize: "55px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -287,7 +287,7 @@ const AboutExperienceSection = () => {
               variants={textRevealVariants}
               style={{
                 color: "rgba(231, 227, 226, 0.70)",
-                fontFamily: "Aston, Deluce",
+                fontFamily: "Aston, sans-serif",
                 fontStyle: "normal",
                 fontWeight: 300,
                 lineHeight: "42px"
