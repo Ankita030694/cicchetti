@@ -63,7 +63,7 @@ body {
 /* Apply Deluce font to all headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Deluce", sans-serif;
-  color: #d9c9b8;
+  color: #FFFFFF;
 }
 
 /* Restaurant page specific styles */
@@ -1462,7 +1462,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
   font-size: 3.5rem;
   text-align: center;
-  color: #d9c9b8;
+  color: #FFFFFF;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   position: relative;
@@ -1577,7 +1577,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Deluce", sans-serif;
   font-weight: 300;
   font-size: 2.2rem;
-  color: #d9c9b8;
+  color: #FFFFFF;
   letter-spacing: 0.05em;
   margin: 0 0 1.5rem 0;
   text-transform: uppercase;
@@ -1863,7 +1863,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
   font-size: 3rem;
   text-align: center;
-  color: #d9c9b8;
+  color: #FFFFFF;
   letter-spacing: 0.05em;
   margin-bottom: 2rem;
 }
@@ -2000,7 +2000,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
   font-size: 3rem;
   text-align: center;
-  color: #d9c9b8;
+  color: #FFFFFF;
   letter-spacing: 0.05em;
   margin-bottom: 2rem;
 }
@@ -2057,7 +2057,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Deluce", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
-  color: #d9c9b8;
+  color: #FFFFFF;
   letter-spacing: 0.02em;
   margin: 0;
 }
@@ -2139,7 +2139,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
   font-size: 2.64rem;
   text-align: left;
-  color: #d9c9b8;
+  color: #FFFFFF;
   letter-spacing: 0.05em;
   margin-bottom: 0.5rem;
 }
@@ -2168,7 +2168,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Deluce", sans-serif;
   font-weight: 300;
   font-size: 1.44rem;
-  color: #d9c9b8;
+  color: #FFFFFF;
   letter-spacing: 0.05em;
   margin: 0;
   text-transform: uppercase;
@@ -2360,7 +2360,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Deluce", sans-serif;
   font-weight: 300;
   font-size: 1.2rem;
-  color: #d9c9b8;
+  color: #FFFFFF;
   letter-spacing: 0.05em;
   margin: 0;
   text-transform: uppercase;
@@ -2374,6 +2374,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.9;
   margin: 0;
   letter-spacing: 0.02em;
+  line-height: 1.6;
 }
 
 .footer-right {

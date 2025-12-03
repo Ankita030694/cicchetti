@@ -126,7 +126,7 @@ const ContactForm = () => {
           line-height: 1.2;
           margin-bottom: 1.5rem;
           text-transform: uppercase;
-          color: #E7E3E2;
+          color: #FFFFFF;
           display: inline-block;
           font-family: 'Deluce', sans-serif;
           letter-spacing: 0.5px;

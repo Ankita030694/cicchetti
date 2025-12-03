@@ -109,7 +109,7 @@ export default function MobileHome() {
             />
           </div>
           <div className="flex flex-col gap-4">
-            <h2 className="text-[35px] leading-[35px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
+            <h2 className="text-[35px] leading-[35px] text-white uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
               The Experience
             </h2>
             <p className="font-['Aston'] font-light text-[20px] leading-[28px] text-[rgba(231,227,226,0.7)]">
@@ -130,7 +130,7 @@ export default function MobileHome() {
             />
           </div>
           <div className="flex flex-col gap-4">
-            <h2 className="text-[35px] leading-[35px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
+            <h2 className="text-[35px] leading-[35px] text-white uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
               THE SPACE
             </h2>
             <p className="font-['Aston'] font-light text-[20px] leading-[28px] text-[rgba(231,227,226,0.7)]">
@@ -143,11 +143,11 @@ export default function MobileHome() {
 
       {/* The Chef Section */}
       <section className="relative w-full px-6 py-16 flex flex-col items-center text-center gap-8">
-        <h2 className="font-['Deluce'] text-[35px] leading-[35px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
+        <h2 className="font-['Deluce'] text-[35px] leading-[35px] text-white uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
           THE CHEF
         </h2>
         <div className="flex flex-col gap-4 text-[rgba(231,227,226,0.7)] font-['Aston'] font-light text-[18px] leading-[28px]">
-          <p className="italic text-[#e7e3e2] text-[22px]">“I touch people’s lives with what I do, and I love it.”</p>
+          <p className="font-['Great_Vibes',_cursive] text-[#e7e3e2] text-[30px] leading-[36px] font-normal">"I touch people's lives with what I do, and I love it."</p>
           <p>
             Chef Parth Gupta is a visionary culinary artist redefining modern vegetarian dining through creativity, sustainability, and balance. Trained under Michelin-starred legends including Alain Ducasse in Paris and Arturo Granato in London, Parth brings global finesse to plant-forward cuisine.
           </p>
@@ -191,8 +191,8 @@ export default function MobileHome() {
             <svg width="56" height="48" viewBox="0 0 56 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 16.3173C0 29.8765 11.256 37.1008 19.4936 43.5695C22.4 45.8503 25.2 48 28 48C30.8 48 33.6 45.8531 36.5064 43.5667C44.7468 37.1036 56 29.8765 56 16.3201C56 2.76376 40.6 -6.85842 28 6.17935C15.4 -6.85842 0 2.75819 0 16.3173Z" fill="white"/>
             </svg>
-            <p className="font-['Aston'] font-light text-[20px] leading-[39px] text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
+            <p className="font-['Aston'] font-light text-[20px] leading-[28px] text-[rgba(231,227,226,0.7)]">
+              Cicchetti Italiano offers a warm, modern escape where plant-forward Venetian inspiration meets Tuscan charm. With earthy tones, crafted details and an inviting ambience that shifts through the day, it's a place to relax, connect and savor memorable moments with those you love.
             </p>
           </div>
 
@@ -209,7 +209,7 @@ export default function MobileHome() {
                   <Image src="/1.jpeg" alt="Times Food Recommends" fill className="object-cover" />
                </div>
                <div className="flex flex-col gap-2 text-left">
-                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Deluce, sans-serif" }}>Times Food Recommends</h3>
+                  <h3 className="text-[25px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>Times Food Recommends</h3>
                   <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aston, sans-serif" }}>Cicchetti Italiano offers a refined take on Italian cuisine with a 100% vegetarian menu, nestled in the heart of Khan Market.</p>
                </div>
             </a>
@@ -220,7 +220,7 @@ export default function MobileHome() {
                   <Image src="/2.jpeg" alt="Deccan Chronicle Guava" fill className="object-cover" />
                </div>
                <div className="flex flex-col gap-2 text-left">
-                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Deluce, sans-serif" }}>Deccan Chronicle</h3>
+                  <h3 className="text-[25px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>Deccan Chronicle</h3>
                   <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aston, sans-serif" }}>Everybody is going ga-ga over guava. Chefs are experimenting with pink and white guavas in various dishes and drinks.</p>
                </div>
             </a>
@@ -231,7 +231,7 @@ export default function MobileHome() {
                   <Image src="/3.jpeg" alt="Hindustan Times Vodka" fill className="object-cover" />
                </div>
                <div className="flex flex-col gap-2 text-left">
-                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Deluce, sans-serif" }}>Hindustan Times</h3>
+                  <h3 className="text-[25px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>Hindustan Times</h3>
                   <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aston, sans-serif" }}>International Vodka Day: How chefs are relooking at the spirit beyond drinks, integrating it into savory and sweet culinary creations.</p>
                </div>
             </a>
@@ -242,7 +242,7 @@ export default function MobileHome() {
                   <Image src="/4.jpeg" alt="Curly Tales Teachers Day" fill className="object-cover" />
                </div>
                <div className="flex flex-col gap-2 text-left">
-                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Deluce, sans-serif" }}>Curly Tales</h3>
+                  <h3 className="text-[25px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>Curly Tales</h3>
                   <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aston, sans-serif" }}>On Teachers' Day, Indian Chefs and Bartenders thank the Gurus who shaped their journeys and culinary philosophies.</p>
                </div>
             </a>
@@ -253,7 +253,7 @@ export default function MobileHome() {
                   <Image src="/5.jpeg" alt="Deccan Chronicle Summertime" fill className="object-cover" />
                </div>
                <div className="flex flex-col gap-2 text-left">
-                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Deluce, sans-serif" }}>Deccan Chronicle</h3>
+                  <h3 className="text-[25px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>Deccan Chronicle</h3>
                   <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aston, sans-serif" }}>Summertime culinary ride: Exploring seasonal summer menus featuring fresh, vibrant ingredients perfect for the warmer months.</p>
                </div>
             </a>
@@ -264,7 +264,7 @@ export default function MobileHome() {
                   <Image src="/6.jpeg" alt="Indian Express Pasta" fill className="object-cover" />
                </div>
                <div className="flex flex-col gap-2 text-left">
-                  <h3 className="text-[25px] text-[#d9c9b8]" style={{ fontFamily: "Deluce, sans-serif" }}>The Indian Express</h3>
+                  <h3 className="text-[25px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>The Indian Express</h3>
                   <p className="font-light text-[18px] text-white/90" style={{ fontFamily: "Aston, sans-serif" }}>Why Italians never break pasta before boiling: Experts explain the tradition and science behind keeping the strands whole.</p>
                </div>
             </a>
@@ -279,31 +279,47 @@ export default function MobileHome() {
 
          {/* Phone */}
          <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Deluce, sans-serif" }}>PHONE:</h3>
-            <div className="flex flex-col gap-4 text-white" style={{ fontFamily: "Aston, sans-serif" }}>
+            <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>PHONE:</h3>
+            <div className="flex flex-col gap-4">
                <div>
-                  <p className="text-[25px] underline decoration-1 underline-offset-4 mb-1">Cicchetti</p>
-                  <p className="text-[21px]">+91 96505 69946</p>
+                  <p className="font-['Aston'] font-light text-[22px] leading-[28px] text-[rgba(231,227,226,0.9)] underline decoration-1 underline-offset-4 mb-1">
+                    Cicchetti
+                  </p>
+                  <p className="font-['Aston'] font-light text-[20px] leading-[26px] text-[rgba(231,227,226,0.9)]">
+                    +91 96505 69946
+                  </p>
                </div>
                <div>
-                  <p className="text-[25px] underline decoration-1 underline-offset-4 mb-1">Bloom, Khan Market</p>
-                  <p className="text-[21px]">9650018246</p>
+                  <p className="font-['Aston'] font-light text-[22px] leading-[28px] text-[rgba(231,227,226,0.9)] underline decoration-1 underline-offset-4 mb-1">
+                    Bloom, Khan Market
+                  </p>
+                  <p className="font-['Aston'] font-light text-[20px] leading-[26px] text-[rgba(231,227,226,0.9)]">
+                    9650018246
+                  </p>
                </div>
                <div>
-                  <p className="text-[25px] underline decoration-1 underline-offset-4 mb-1">Bloom, Aurobindo</p>
-                  <p className="text-[21px]">9650017910</p>
+                  <p className="font-['Aston'] font-light text-[22px] leading-[28px] text-[rgba(231,227,226,0.9)] underline decoration-1 underline-offset-4 mb-1">
+                    Bloom, Aurobindo
+                  </p>
+                  <p className="font-['Aston'] font-light text-[20px] leading-[26px] text-[rgba(231,227,226,0.9)]">
+                    9650017910
+                  </p>
                </div>
             </div>
          </div>
 
          {/* Hours */}
          <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Deluce, sans-serif" }}>HOURS:</h3>
-            <div className="flex flex-col gap-2 text-white" style={{ fontFamily: "Aston, sans-serif" }}>
+            <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>HOURS:</h3>
+            <div className="flex flex-col gap-2">
                {['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'].map(day => (
                   <div key={day} className="flex justify-between max-w-[300px]">
-                     <span className="text-[20px]">{day}:</span>
-                     <span className="text-[18px]">12-11 pm</span>
+                     <span className="font-['Aston'] font-light text-[20px] leading-[26px] text-[rgba(231,227,226,0.9)]">
+                       {day}:
+                     </span>
+                     <span className="font-['Aston'] font-light text-[18px] leading-[24px] text-[rgba(231,227,226,0.9)]">
+                       12-11 pm
+                     </span>
                   </div>
                ))}
             </div>
@@ -311,8 +327,8 @@ export default function MobileHome() {
 
          {/* Address */}
          <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] text-[#7e884d] uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>Visit Us:</h3>
-            <p className="text-[21px] text-white font-['Aston'] leading-[30px]">
+            <h3 className="text-[24px] text-white uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>Visit Us:</h3>
+            <p className="font-['Aston'] font-light text-[20px] leading-[28px] text-[rgba(231,227,226,0.9)]">
                First Floor, 70, Khan Market, Rabindra Nagar, New Delhi, Delhi 110003
             </p>
          </div>
@@ -340,13 +356,13 @@ export default function MobileHome() {
             <Image src="/logos/cclogo1.png" alt="Footer logo" width={200} height={200} />
          </div>
          <div className="flex flex-col gap-4 items-center">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Deluce, sans-serif" }}>JOIN OUR TEAM</h3>
+            <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>JOIN OUR TEAM</h3>
             <p className="text-[21px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>E: info@cicchetti.com</p>
          </div>
 
          {/* Follow Our Journey */}
          <div className="flex flex-col gap-6 items-center">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Deluce, sans-serif" }}>FOLLOW OUR JOURNEY</h3>
+            <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>FOLLOW OUR JOURNEY</h3>
             <div className="flex gap-8 justify-center">
                <a href="#" className="text-white text-3xl hover:text-[#7e884d] transition-colors"><i className="fab fa-instagram"></i></a>
                <a href="#" className="text-white text-3xl hover:text-[#7e884d] transition-colors"><i className="fab fa-facebook-f"></i></a>

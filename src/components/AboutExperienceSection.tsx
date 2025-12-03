@@ -225,7 +225,7 @@ const AboutExperienceSection = () => {
               variants={textRevealVariants}
               transition={{ duration: 0.8, ease: "easeOut" }}
               style={{
-                color: "#E7E3E2",
+                color: "#FFFFFF",
                 fontFamily: "Deluce, sans-serif",
                 fontSize: "55px",
                 fontStyle: "normal",
@@ -269,7 +269,7 @@ const AboutExperienceSection = () => {
               variants={textRevealVariants}
               transition={{ duration: 0.8, ease: "easeOut" }}
               style={{
-                color: "#E7E3E2",
+                color: "#FFFFFF",
                 fontFamily: "Deluce, sans-serif",
                 fontSize: "55px",
                 fontStyle: "normal",
@@ -279,7 +279,7 @@ const AboutExperienceSection = () => {
               }}
             >
               <VanishingText threshold={0.35} staggerDelay={20}>
-              THE RESTAURANT
+              THE CHEF
               </VanishingText>
             </motion.h3>
             <motion.p 

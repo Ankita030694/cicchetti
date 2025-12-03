@@ -13,22 +13,24 @@ const VisitUsSection = () => {
           <div className="visit-us-info">
             {/* Phone Section */}
             <div className="info-group">
-              <h3 className="info-heading" style={{ fontFamily: 'Deluce, sans-serif' }}>PHONE:</h3>
+              <h3 className="info-heading" style={{ fontFamily: 'Deluce, sans-serif', color: '#FFFFFF' }}>PHONE:</h3>
               <div className="info-item">
                 <h4 className="location-name" style={{ fontFamily: 'Deluce, sans-serif' }}>Cicchetti</h4>
                 <p className="contact-detail" style={{ fontFamily: 'Aston, sans-serif' }}>+91 96505 69946</p>
               </div>
               <div className="info-item">
-                <h4 className="location-name" style={{ fontFamily: 'Deluce, sans-serif' }}>First Floor, 70, Khan Market, Rabindra Nagar, New Delhi, Delhi 110003
-                </h4>
+                <h4 className="location-name" style={{ fontFamily: 'Deluce, sans-serif' }}>Bloom, Khan Market</h4>
                 <p className="contact-detail" style={{ fontFamily: 'Aston, sans-serif' }}>9650018246</p>
+              </div>
+              <div className="info-item">
+                <p className="address" style={{ fontFamily: 'Aston, sans-serif' }}>First Floor, 70, Khan Market, Rabindra Nagar, New Delhi, Delhi 110003</p>
               </div>
               
             </div>
 
             {/* Hours Section */}
             <div className="info-group">
-              <h3 className="info-heading" style={{ fontFamily: 'Deluce, sans-serif' }}>HOURS:</h3>
+              <h3 className="info-heading" style={{ fontFamily: 'Deluce, sans-serif', color: '#FFFFFF' }}>HOURS:</h3>
               <div className="info-item">
                 <p className="hours-detail" style={{ fontFamily: 'Aston, sans-serif' }}>Monday: 12–11 pm</p>
                 <p className="hours-detail" style={{ fontFamily: 'Aston, sans-serif' }}>Tuesday: 12–11 pm</p>

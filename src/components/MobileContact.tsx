@@ -10,7 +10,7 @@ export default function MobileContact() {
       {/* Contact Form Section */}
       <section className="relative w-full px-6 pt-32 pb-16 flex flex-col gap-10">
         <div className="flex flex-col gap-4">
-           <h2 className="text-[35px] leading-[45px] text-[#e7e3e2] uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
+           <h2 className="text-[35px] leading-[45px] text-white uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
             SEND A MESSAGE TO US
            </h2>
            <p className="text-[18px] leading-[28px] text-[rgba(231,227,226,0.7)] font-light" style={{ fontFamily: "Aston, sans-serif" }}>
@@ -81,31 +81,47 @@ export default function MobileContact() {
 
          {/* Phone */}
          <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Deluce, sans-serif" }}>PHONE:</h3>
-            <div className="flex flex-col gap-4 text-white" style={{ fontFamily: "Aston, sans-serif" }}>
+            <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>PHONE:</h3>
+            <div className="flex flex-col gap-4">
                <div>
-                  <p className="text-[25px] underline decoration-1 underline-offset-4 mb-1">Cicchetti</p>
-                  <p className="text-[21px]">+91 96505 69946</p>
+                  <p className="font-['Aston'] font-light text-[22px] leading-[28px] text-[rgba(231,227,226,0.9)] underline decoration-1 underline-offset-4 mb-1">
+                    Cicchetti
+                  </p>
+                  <p className="font-['Aston'] font-light text-[20px] leading-[26px] text-[rgba(231,227,226,0.9)]">
+                    +91 96505 69946
+                  </p>
                </div>
                <div>
-                  <p className="text-[25px] underline decoration-1 underline-offset-4 mb-1">Bloom, Khan Market</p>
-                  <p className="text-[21px]">9650018246</p>
+                  <p className="font-['Aston'] font-light text-[22px] leading-[28px] text-[rgba(231,227,226,0.9)] underline decoration-1 underline-offset-4 mb-1">
+                    Bloom, Khan Market
+                  </p>
+                  <p className="font-['Aston'] font-light text-[20px] leading-[26px] text-[rgba(231,227,226,0.9)]">
+                    9650018246
+                  </p>
                </div>
                <div>
-                  <p className="text-[25px] underline decoration-1 underline-offset-4 mb-1">Bloom, Aurobindo</p>
-                  <p className="text-[21px]">9650017910</p>
+                  <p className="font-['Aston'] font-light text-[22px] leading-[28px] text-[rgba(231,227,226,0.9)] underline decoration-1 underline-offset-4 mb-1">
+                    Bloom, Aurobindo
+                  </p>
+                  <p className="font-['Aston'] font-light text-[20px] leading-[26px] text-[rgba(231,227,226,0.9)]">
+                    9650017910
+                  </p>
                </div>
             </div>
          </div>
 
          {/* Hours */}
          <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Deluce, sans-serif" }}>HOURS:</h3>
-            <div className="flex flex-col gap-2 text-white" style={{ fontFamily: "Aston, sans-serif" }}>
+            <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>HOURS:</h3>
+            <div className="flex flex-col gap-2">
                {['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'].map(day => (
                   <div key={day} className="flex justify-between max-w-[300px]">
-                     <span className="text-[20px]">{day}:</span>
-                     <span className="text-[18px]">12-11 pm</span>
+                     <span className="font-['Aston'] font-light text-[20px] leading-[26px] text-[rgba(231,227,226,0.9)]">
+                       {day}:
+                     </span>
+                     <span className="font-['Aston'] font-light text-[18px] leading-[24px] text-[rgba(231,227,226,0.9)]">
+                       12-11 pm
+                     </span>
                   </div>
                ))}
             </div>
@@ -113,8 +129,8 @@ export default function MobileContact() {
 
          {/* Address */}
          <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] text-[#7e884d] uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>Visit Us:</h3>
-            <p className="text-[21px] text-white leading-[30px]" style={{ fontFamily: "Aston, sans-serif" }}>
+            <h3 className="text-[24px] text-white uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>Visit Us:</h3>
+            <p className="font-['Aston'] font-light text-[20px] leading-[28px] text-[rgba(231,227,226,0.9)]">
                First Floor, 70, Khan Market, Rabindra Nagar, New Delhi, Delhi 110003
             </p>
          </div>
@@ -142,13 +158,13 @@ export default function MobileContact() {
             <Image src="/logos/cclogo1.png" alt="Footer logo" width={200} height={200} />
          </div>
          <div className="flex flex-col gap-4 items-center">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Deluce, sans-serif" }}>JOIN OUR TEAM</h3>
+            <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>JOIN OUR TEAM</h3>
             <p className="text-[21px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>E: info@cicchetti.com</p>
          </div>
 
          {/* Follow Our Journey */}
          <div className="flex flex-col gap-6 items-center">
-            <h3 className="text-[24px] text-[#7e884d]" style={{ fontFamily: "Deluce, sans-serif" }}>FOLLOW OUR JOURNEY</h3>
+            <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>FOLLOW OUR JOURNEY</h3>
             <div className="flex gap-8 justify-center">
                <a href="#" className="text-white text-3xl hover:text-[#7e884d] transition-colors"><i className="fab fa-instagram"></i></a>
                <a href="#" className="text-white text-3xl hover:text-[#7e884d] transition-colors"><i className="fab fa-facebook-f"></i></a>

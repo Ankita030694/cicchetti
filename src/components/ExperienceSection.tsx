@@ -225,7 +225,7 @@ const ExperienceSection = () => {
               variants={textRevealVariants}
               transition={{ duration: 0.8, ease: "easeOut" }}
               style={{
-                color: "#E7E3E2",
+                color: "#FFFFFF",
                 fontFamily: "Deluce, sans-serif",
                 fontSize: "50px",
                 fontStyle: "normal",
@@ -269,7 +269,7 @@ const ExperienceSection = () => {
               variants={textRevealVariants}
               transition={{ duration: 0.8, ease: "easeOut" }}
               style={{
-                color: "#E7E3E2",
+                color: "#FFFFFF",
                 fontFamily: "Deluce, sans-serif",
                 fontSize: "50px",
                 fontStyle: "normal",

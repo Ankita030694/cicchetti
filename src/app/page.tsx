@@ -56,7 +56,7 @@ export default function Home() {
          {/* Images & Video Section */}
          <section className="pasta-lab-section md:mx-20">
                   <h1 className="pasta-lab-heading"   style={{
-                    color: "#E7E3E2",
+                    color: "#FFFFFF",
                     fontFamily: "Deluce, sans-serif",
                     fontSize: "50px",
                     fontStyle: "normal",
@@ -69,11 +69,11 @@ export default function Home() {
                     style={{
                       color: "#E7E3E2",
                       textAlign: "center",
-                      fontFamily: "Aston, sans-serif",
-                      fontSize: "20px",
-                      fontStyle: "italic",
+                      fontFamily: '"Great Vibes", cursive',
+                      fontSize: "35px",
+                      fontStyle: "normal",
                       fontWeight: 400,
-                      lineHeight: "39px",
+                      lineHeight: "45px",
                       maxWidth: "900px",
                       margin: "0 auto",
                       marginBottom: "40px"

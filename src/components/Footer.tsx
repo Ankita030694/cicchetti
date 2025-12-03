@@ -15,7 +15,7 @@ export default function Footer() {
           <h3
             className="footer-heading"
             style={{
-              color: '#7E884D',
+              color: '#FFFFFF',
               fontFamily: 'Deluce, sans-serif',
               fontSize: '25px',
               fontStyle: 'normal',
@@ -33,7 +33,7 @@ export default function Footer() {
           <h3
             className="footer-heading"
             style={{
-              color: '#7E884D',
+              color: '#FFFFFF',
               fontFamily: 'Deluce, sans-serif',
               fontSize: '25px',
               fontStyle: 'normal',
