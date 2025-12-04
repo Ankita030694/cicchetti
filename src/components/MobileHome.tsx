@@ -187,14 +187,7 @@ export default function MobileHome() {
       {/* News & More Section */}
       <section className="relative w-full px-6 py-16 flex flex-col items-center text-center gap-10">
           {/* Icon and Quote */}
-          <div className="flex flex-col items-center gap-6">
-            <svg width="56" height="48" viewBox="0 0 56 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 16.3173C0 29.8765 11.256 37.1008 19.4936 43.5695C22.4 45.8503 25.2 48 28 48C30.8 48 33.6 45.8531 36.5064 43.5667C44.7468 37.1036 56 29.8765 56 16.3201C56 2.76376 40.6 -6.85842 28 6.17935C15.4 -6.85842 0 2.75819 0 16.3173Z" fill="white"/>
-            </svg>
-            <p className="font-['Aston'] font-light text-[20px] leading-[28px] text-[rgba(231,227,226,0.7)]">
-              Cicchetti Italiano offers a warm, modern escape where plant-forward Venetian inspiration meets Tuscan charm. With earthy tones, crafted details and an inviting ambience that shifts through the day, it's a place to relax, connect and savor memorable moments with those you love.
-            </p>
-          </div>
+        
 
           {/* Experts Heading */}
           <h2 className="text-[35px] leading-[45px] text-white uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
@@ -289,22 +282,7 @@ export default function MobileHome() {
                     +91 96505 69946
                   </p>
                </div>
-               <div>
-                  <p className="font-['Aston'] font-light text-[22px] leading-[28px] text-[rgba(231,227,226,0.9)] underline decoration-1 underline-offset-4 mb-1">
-                    Bloom, Khan Market
-                  </p>
-                  <p className="font-['Aston'] font-light text-[20px] leading-[26px] text-[rgba(231,227,226,0.9)]">
-                    9650018246
-                  </p>
-               </div>
-               <div>
-                  <p className="font-['Aston'] font-light text-[22px] leading-[28px] text-[rgba(231,227,226,0.9)] underline decoration-1 underline-offset-4 mb-1">
-                    Bloom, Aurobindo
-                  </p>
-                  <p className="font-['Aston'] font-light text-[20px] leading-[26px] text-[rgba(231,227,226,0.9)]">
-                    9650017910
-                  </p>
-               </div>
+              
             </div>
          </div>
 

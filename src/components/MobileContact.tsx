@@ -91,22 +91,7 @@ export default function MobileContact() {
                     +91 96505 69946
                   </p>
                </div>
-               <div>
-                  <p className="font-['Aston'] font-light text-[22px] leading-[28px] text-[rgba(231,227,226,0.9)] underline decoration-1 underline-offset-4 mb-1">
-                    Bloom, Khan Market
-                  </p>
-                  <p className="font-['Aston'] font-light text-[20px] leading-[26px] text-[rgba(231,227,226,0.9)]">
-                    9650018246
-                  </p>
-               </div>
-               <div>
-                  <p className="font-['Aston'] font-light text-[22px] leading-[28px] text-[rgba(231,227,226,0.9)] underline decoration-1 underline-offset-4 mb-1">
-                    Bloom, Aurobindo
-                  </p>
-                  <p className="font-['Aston'] font-light text-[20px] leading-[26px] text-[rgba(231,227,226,0.9)]">
-                    9650017910
-                  </p>
-               </div>
+              
             </div>
          </div>
 

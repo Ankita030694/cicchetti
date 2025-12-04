@@ -18,13 +18,7 @@ const VisitUsSection = () => {
                 <h4 className="location-name" style={{ fontFamily: 'Deluce, sans-serif' }}>Cicchetti</h4>
                 <p className="contact-detail" style={{ fontFamily: 'Aston, sans-serif' }}>+91 96505 69946</p>
               </div>
-              <div className="info-item">
-                <h4 className="location-name" style={{ fontFamily: 'Deluce, sans-serif' }}>Bloom, Khan Market</h4>
-                <p className="contact-detail" style={{ fontFamily: 'Aston, sans-serif' }}>9650018246</p>
-              </div>
-              <div className="info-item">
-                <p className="address" style={{ fontFamily: 'Aston, sans-serif' }}>First Floor, 70, Khan Market, Rabindra Nagar, New Delhi, Delhi 110003</p>
-              </div>
+            
               
             </div>
 
