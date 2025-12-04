@@ -162,6 +162,49 @@ export default function MobileContact() {
             <p className="text-[21px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>E: info@cicchetti.com</p>
          </div>
 
+         {/* Our Brands */}
+         <div className="flex flex-col gap-4 items-center">
+            <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>OUR BRANDS</h3>
+            <div className="flex flex-col gap-3 items-center">
+               <a 
+                  href="https://www.instagram.com/bloomcafes?igsh=NDF4aDlrbnh6b2Fn" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[21px] text-white hover:text-[#7e884d] transition-colors"
+                  style={{ fontFamily: "Aston, sans-serif" }}
+               >
+                  Bloom
+               </a>
+               <a 
+                  href="https://www.instagram.com/cicchetti.italiano?igsh=MWF4d2s2bzI1bGFtZg==" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[21px] text-white hover:text-[#7e884d] transition-colors"
+                  style={{ fontFamily: "Aston, sans-serif" }}
+               >
+                  Cicchetti Italiano
+               </a>
+               <a 
+                  href="https://www.instagram.com/thelavenderflavours?igsh=dHNtcmw0amZ5Znk4" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[21px] text-white hover:text-[#7e884d] transition-colors"
+                  style={{ fontFamily: "Aston, sans-serif" }}
+               >
+                  The Lavender Flavours
+               </a>
+               <a 
+                  href="https://www.instagram.com/firenze.gelateria?igsh=MTFycjQwdW5ia213Ng==" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[21px] text-white hover:text-[#7e884d] transition-colors"
+                  style={{ fontFamily: "Aston, sans-serif" }}
+               >
+                  Firenze Gelateria & Caffè
+               </a>
+            </div>
+         </div>
+
          {/* Follow Our Journey */}
          <div className="flex flex-col gap-6 items-center">
             <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>FOLLOW OUR JOURNEY</h3>

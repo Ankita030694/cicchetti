@@ -28,6 +28,57 @@ export default function Footer() {
           <p className="footer-email">E: info@cicchetti.com</p>
         </div>
 
+        {/* Third Column - Our Brands */}
+        <div className="footer-right">
+          <h3
+            className="footer-heading"
+            style={{
+              color: '#FFFFFF',
+              fontFamily: 'Deluce, sans-serif',
+              fontSize: '25px',
+              fontStyle: 'normal',
+              fontWeight: 400,
+              lineHeight: '35px',
+            }}
+          >
+            OUR BRANDS
+          </h3>
+          <div className="footer-brands">
+            <a 
+              href="https://www.instagram.com/bloomcafes?igsh=NDF4aDlrbnh6b2Fn" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="footer-brand-link"
+            >
+              Bloom
+            </a>
+            <a 
+              href="https://www.instagram.com/cicchetti.italiano?igsh=MWF4d2s2bzI1bGFtZg==" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="footer-brand-link"
+            >
+              Cicchetti Italiano
+            </a>
+            <a 
+              href="https://www.instagram.com/thelavenderflavours?igsh=dHNtcmw0amZ5Znk4" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="footer-brand-link"
+            >
+              The Lavender Flavours
+            </a>
+            <a 
+              href="https://www.instagram.com/firenze.gelateria?igsh=MTFycjQwdW5ia213Ng==" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="footer-brand-link"
+            >
+              Firenze Gelateria & Caffè
+            </a>
+          </div>
+        </div>
+
         {/* Right - Follow Our Journey */}
         <div className="footer-right">
           <h3

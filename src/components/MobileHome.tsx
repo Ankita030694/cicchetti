@@ -57,8 +57,8 @@ export default function MobileHome() {
             className="object-contain"
           />
         </div>
-        <p className="relative z-10 font-['Great_Vibes',_cursive] font-light text-[30px] leading-[36px] text-[rgba(231,227,226,0.7)]">
-          Italy’s Small-Plate Art, Reimagined in Delhi
+        <p className="relative z-10 font-light text-[25px] leading-[36px] text-[rgba(231,227,226,0.7)]" style={{ fontFamily: '"Aston Script", cursive', lineHeight: '55px' }}>
+          Italy's Small-Plate Art, Reimagined in Delhi
         </p>
 
         {/* Bottom Blur Effect */}
@@ -146,8 +146,8 @@ export default function MobileHome() {
         <h2 className="font-['Deluce'] text-[35px] leading-[35px] text-white uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
           THE CHEF
         </h2>
-        <div className="flex flex-col gap-4 text-[rgba(231,227,226,0.7)] font-['Aston'] font-light text-[18px] leading-[28px]">
-          <p className="font-['Great_Vibes',_cursive] text-[#e7e3e2] text-[30px] leading-[36px] font-normal">"I touch people's lives with what I do, and I love it."</p>
+        <div className="flex flex-col gap-8 text-[rgba(231,227,226,0.7)] font-['Aston'] font-light text-[18px] leading-[28px]">
+          <p className="text-[#e7e3e2] text-[25px] leading-[36px] font-normal" style={{ fontFamily: '"Aston Script", cursive' }}>"I touch people's lives with what I do, and I love it."</p>
           <p>
             Chef Parth Gupta is a visionary culinary artist redefining modern vegetarian dining through creativity, sustainability, and balance. Trained under Michelin-starred legends including Alain Ducasse in Paris and Arturo Granato in London, Parth brings global finesse to plant-forward cuisine.
           </p>
@@ -358,6 +358,49 @@ export default function MobileHome() {
          <div className="flex flex-col gap-4 items-center">
             <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>JOIN OUR TEAM</h3>
             <p className="text-[21px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>E: info@cicchetti.com</p>
+         </div>
+
+         {/* Our Brands */}
+         <div className="flex flex-col gap-4 items-center">
+            <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>OUR BRANDS</h3>
+            <div className="flex flex-col gap-3 items-center">
+               <a 
+                  href="https://www.instagram.com/bloomcafes?igsh=NDF4aDlrbnh6b2Fn" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[21px] text-white hover:text-[#7e884d] transition-colors"
+                  style={{ fontFamily: "Aston, sans-serif" }}
+               >
+                  Bloom
+               </a>
+               <a 
+                  href="https://www.instagram.com/cicchetti.italiano?igsh=MWF4d2s2bzI1bGFtZg==" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[21px] text-white hover:text-[#7e884d] transition-colors"
+                  style={{ fontFamily: "Aston, sans-serif" }}
+               >
+                  Cicchetti Italiano
+               </a>
+               <a 
+                  href="https://www.instagram.com/thelavenderflavours?igsh=dHNtcmw0amZ5Znk4" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[21px] text-white hover:text-[#7e884d] transition-colors"
+                  style={{ fontFamily: "Aston, sans-serif" }}
+               >
+                  The Lavender Flavours
+               </a>
+               <a 
+                  href="https://www.instagram.com/firenze.gelateria?igsh=MTFycjQwdW5ia213Ng==" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-[21px] text-white hover:text-[#7e884d] transition-colors"
+                  style={{ fontFamily: "Aston, sans-serif" }}
+               >
+                  Firenze Gelateria & Caffè
+               </a>
+            </div>
          </div>
 
          {/* Follow Our Journey */}

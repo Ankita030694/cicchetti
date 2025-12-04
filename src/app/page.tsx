@@ -27,14 +27,15 @@ export default function Home() {
                 marginBottom: '5rem',
                 color: 'rgba(231, 227, 226, 0.70)',
                 textAlign: 'center',
-                fontFamily: '"Great Vibes", cursive',
+                fontFamily: '"Aston Script", cursive',
                 fontSize: '35px',
                 fontStyle: 'normal',
                 fontWeight: 400,
-                lineHeight: '45px'
+                lineHeight: '65px'
+                
               }}
             >
-              Italy’s Small-Plate Art, Reimagined in Delhi
+              Italy's Small-Plate Art, Reimagined in Delhi
             </p>
           </div>
         </section>
@@ -69,8 +70,8 @@ export default function Home() {
                     style={{
                       color: "#E7E3E2",
                       textAlign: "center",
-                      fontFamily: '"Great Vibes", cursive',
-                      fontSize: "35px",
+                      fontFamily: '"Aston Script", cursive',
+                      fontSize: "30px",
                       fontStyle: "normal",
                       fontWeight: 400,
                       lineHeight: "45px",
@@ -128,27 +129,7 @@ export default function Home() {
         {/* NEWS & MORE Section */}
         <section className="news-section">
           <div className="news-container">
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem', marginBottom: '2rem' }}>
-              <svg width="56" height="48" viewBox="0 0 56 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 16.3173C0 29.8765 11.256 37.1008 19.4936 43.5695C22.4 45.8503 25.2 48 28 48C30.8 48 33.6 45.8531 36.5064 43.5667C44.7468 37.1036 56 29.8765 56 16.3201C56 2.76376 40.6 -6.85842 28 6.17935C15.4 -6.85842 0 2.75819 0 16.3173Z" fill="white"/>
-              </svg>
-              <p
-                style={{
-                  color: "#FFF",
-                  textAlign: "center",
-                  fontFamily: "Aston, sans-serif",
-                  fontSize: "20px",
-                  fontStyle: "normal",
-                  fontWeight: 300,
-                  lineHeight: "39px",
-                  maxWidth: "700px",
-                  margin: "0 auto",
-                  marginTop: "40px"
-                }}
-              >
-                Cicchetti Italiano offers a warm, modern escape where plant-forward Venetian inspiration meets Tuscan charm. With earthy tones, crafted details and an inviting ambience that shifts through the day, it's a place to relax, connect and savor memorable moments with those you love.
-              </p>
-            </div>
+            
             <h2
               style={{
                 color: "#FFF",

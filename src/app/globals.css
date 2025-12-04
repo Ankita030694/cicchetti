@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+/* Font Face Declaration for Aston Script */
+@font-face {
+  font-family: 'Aston Script';
+  src: url('/aston_script.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Static Global Color Palette */
 :root {
   /* Primary Colors (Green 70%) */
@@ -2327,7 +2336,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: 3rem;
   align-items: flex-start;
   position: relative;
@@ -2375,6 +2384,30 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   letter-spacing: 0.02em;
   line-height: 1.6;
+}
+
+.footer-brands {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer-brand-link {
+  font-family: "Aston", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  color: var(--neutral-white);
+  opacity: 0.9;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+.footer-brand-link:hover {
+  opacity: 1;
+  color: var(--accent-light-yellow);
+  transform: translateX(4px);
 }
 
 .footer-right {
