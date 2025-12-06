@@ -1446,6 +1446,69 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* USPs Strip Section */
+.usps-strip {
+  width: 100%;
+  padding: 2rem 0;
+  background: #3b3f27;
+  border-top: 1px solid rgba(126, 136, 77, 0.2);
+  border-bottom: 1px solid rgba(126, 136, 77, 0.2);
+  position: relative;
+}
+
+.usps-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+}
+
+.usp-item {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.usp-text {
+  font-family: "Aston", sans-serif;
+  font-weight: 200;
+  font-size: 1.1rem;
+  color: #FFFFFF;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+}
+
+.usp-divider {
+  width: 1px;
+  height: 40px;
+  background: rgba(126, 136, 77, 0.3);
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .usps-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .usp-divider {
+    width: 100%;
+    height: 1px;
+  }
+  
+  .usp-item {
+    min-width: auto;
+  }
+  
+  .usp-text {
+    font-size: 1rem;
+  }
+}
+
 /* Experience Section */
 .experience-section {
   min-height: 100vh;

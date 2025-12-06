@@ -88,6 +88,29 @@ export default function MobileAbout() {
         </div>
       </section>
 
+      {/* USPs Strip */}
+      <section className="relative w-full py-8 px-6 bg-[#3b3f27] border-y border-[#7e884d]/20">
+        <div className="flex flex-col gap-4 items-center">
+          <div className="flex flex-col gap-3 items-center w-full">
+            <div className="text-center">
+              <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>Everything made from Scratch</span>
+            </div>
+            <div className="w-full h-[1px] bg-[#7e884d]/30"></div>
+            <div className="text-center">
+              <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>100% Vegetarian</span>
+            </div>
+            <div className="w-full h-[1px] bg-[#7e884d]/30"></div>
+            <div className="text-center">
+              <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>Organic Locally sourced ingredients</span>
+            </div>
+            <div className="w-full h-[1px] bg-[#7e884d]/30"></div>
+            <div className="text-center">
+              <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>Sustainable</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Visit Us Section */}
       <section className="relative w-full px-6 py-16 flex flex-col gap-8">
          <h2 className="text-[32px] leading-[32px] text-white uppercase" style={{ fontFamily: "Deluce, sans-serif" }}>
