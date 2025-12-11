@@ -35,6 +35,16 @@ const VisitUsSection = () => {
                 <p className="hours-detail" style={{ fontFamily: 'Aston, sans-serif' }}>Sunday: 12–11 pm</p>
               </div>
             </div>
+
+            {/* Address Section */}
+            <div className="info-group">
+              <h3 className="info-heading" style={{ fontFamily: 'Deluce, sans-serif', color: '#FFFFFF' }}>ADDRESS:</h3>
+              <div className="info-item">
+                <p className="address" style={{ fontFamily: 'Aston, sans-serif' }}>
+                  First Floor, 70, Khan Market, Rabindra Nagar, New Delhi, Delhi 110003
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* Right side - Google Maps */}
