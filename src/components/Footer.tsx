@@ -123,6 +123,11 @@ export default function Footer() {
         {/* Curved Arrow */}
       
       </div>
+      
+      {/* Footer Credit */}
+      <div className="footer-credit">
+        <p className="footer-credit-text">Design and Developed by Designncode</p>
+      </div>
     </footer>
   );
 }

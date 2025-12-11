@@ -2558,6 +2558,24 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.6;
 }
 
+.footer-credit {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 2rem;
+}
+
+.footer-credit-text {
+  font-family: "Aston", sans-serif;
+  font-weight: 200;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
 /* Responsive styles for footer */
 @media (max-width: 768px) {
   .footer-section {

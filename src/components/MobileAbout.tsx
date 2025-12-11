@@ -238,6 +238,13 @@ export default function MobileAbout() {
             </div>
          </div>
       </section>
+
+      {/* Footer Credit */}
+      <div className="w-full px-6 py-4 border-t border-[#7e884d]/20 text-center">
+        <p className="text-[12px] text-white/50" style={{ fontFamily: "Aston, sans-serif", letterSpacing: '0.1em' }}>
+          Design and Developed by Designncode
+        </p>
+      </div>
     </div>
   );
 }
