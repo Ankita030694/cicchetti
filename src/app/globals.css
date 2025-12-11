@@ -518,7 +518,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-right {
   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 1rem;
   flex: 1;
   justify-content: flex-end;
   flex-wrap: nowrap;
