@@ -17,6 +17,14 @@ const ContactForm = () => {
             Tell us how we can help. We aim to respond to all inquiries within 24 hours.
           </p>
           <div className="contact-divider"></div>
+          <div className="contact-address" style={{ marginTop: '2rem' }}>
+            <p className="contact-subtext" style={{ marginBottom: '0.5rem' }}>
+              <strong>Visit Us:</strong>
+            </p>
+            <p className="contact-subtext">
+              First Floor, 70, Khan Market, Rabindra Nagar, New Delhi, Delhi 110003
+            </p>
+          </div>
         </div>
 
         {/* Right Side - Form */}

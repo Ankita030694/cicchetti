@@ -5,17 +5,6 @@ import Script from 'next/script';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const CurlyDivider: React.FC = () => (
-  <Image 
-    src="/divider.png" 
-    alt="Divider" 
-    width={10} 
-    height={10}
-    className="navbar-divider"
-    priority
-  />
-);
-
 const Navbar: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -154,10 +143,9 @@ const Navbar: React.FC = () => {
             </Link>
           </div>
           
-          {/* Right - Navigation with Curly Dividers */}
+          {/* Right - Navigation */}
           <div className="navbar-right">
             <Link href="/about" className="nav-btn">ABOUT US</Link>
-            <CurlyDivider />
             <div className="relative group">
               <button className="nav-btn">Menu <i className="fas fa-caret-down ml-2"></i></button>
               <div className="absolute left-0 mt-2 w-48 bg-white text-gray-900 shadow-lg rounded z-50 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 pointer-events-none group-hover:pointer-events-auto group-focus-within:pointer-events-auto transition-opacity">
@@ -179,7 +167,6 @@ const Navbar: React.FC = () => {
                 </a>
               </div>
             </div>
-            <CurlyDivider />
             <Link href="/contact" className="nav-btn">CONTACT</Link>
           </div>
         </div>

@@ -35,7 +35,7 @@ export default function Home() {
                 
               }}
             >
-              Italy's Small-Plate Art, Reimagined in Delhi
+              Italy's Aperitivo Culture Reimagined in Delhi
             </p>
           </div>
         </section>

@@ -58,7 +58,7 @@ export default function MobileHome() {
           />
         </div>
         <p className="relative z-10 font-light text-[25px] leading-[36px] text-[rgba(231,227,226,0.7)]" style={{ fontFamily: '"Aston Script", cursive', lineHeight: '55px' }}>
-          Italy's Small-Plate Art, Reimagined in Delhi
+          Italy's Aperitivo Culture Reimagined in Delhi
         </p>
 
         {/* Bottom Blur Effect */}
