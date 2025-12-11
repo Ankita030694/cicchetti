@@ -235,7 +235,7 @@ const ExperienceSection = () => {
               }}
             >
               <VanishingText threshold={0.35} staggerDelay={20}>
-                DELUCE
+                THE EXPERIENCE
               </VanishingText>
             </motion.h3>
             <motion.p 
