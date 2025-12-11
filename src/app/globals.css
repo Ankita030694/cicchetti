@@ -1449,7 +1449,7 @@ h1, h2, h3, h4, h5, h6 {
 /* USPs Strip Section */
 .usps-strip {
   width: 100%;
-  padding: 2rem 0;
+  padding: 3rem 0;
   background: #3b3f27;
   border-top: 1px solid rgba(126, 136, 77, 0.2);
   border-bottom: 1px solid rgba(126, 136, 77, 0.2);
@@ -1462,7 +1462,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   padding: 0 2rem;
   flex-wrap: wrap;
 }
@@ -1471,20 +1471,32 @@ h1, h2, h3, h4, h5, h6 {
   flex: 1;
   min-width: 200px;
   text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.usp-item:hover {
+  transform: translateY(-2px);
 }
 
 .usp-text {
   font-family: "Aston", sans-serif;
   font-weight: 200;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   color: #FFFFFF;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   line-height: 1.6;
+  opacity: 0.9;
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.usp-item:hover .usp-text {
+  opacity: 1;
+  color: rgba(231, 227, 226, 1);
 }
 
 .usp-divider {
   width: 1px;
-  height: 40px;
+  height: 50px;
   background: rgba(126, 136, 77, 0.3);
   flex-shrink: 0;
 }
@@ -1512,7 +1524,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Experience Section */
 .experience-section {
   min-height: 100vh;
-  padding: 8rem 2rem;
   background: transparent;
   color: var(--neutral-white);
   overflow: hidden;

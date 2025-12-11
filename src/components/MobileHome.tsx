@@ -81,12 +81,30 @@ export default function MobileHome() {
         />
       </section>
 
-      {/* Welcome Text */}
+      {/* USPs Strip */}
+      <section className="relative w-full py-8 px-6 bg-[#3b3f27] border-y border-[#7e884d]/20">
+        <div className="flex flex-col gap-4 items-center">
+          <div className="flex flex-col gap-3 items-center w-full">
+            <div className="text-center">
+              <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>Everything made from Scratch</span>
+            </div>
+            <div className="w-full h-[1px] bg-[#7e884d]/30"></div>
+            <div className="text-center">
+              <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>100% Vegetarian</span>
+            </div>
+            <div className="w-full h-[1px] bg-[#7e884d]/30"></div>
+            <div className="text-center">
+              <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>Organic Locally sourced ingredients</span>
+            </div>
+            <div className="w-full h-[1px] bg-[#7e884d]/30"></div>
+            <div className="text-center">
+              <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>Sustainable</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="relative w-full px-6 pb-16 text-center mt-10">
-       
-        <p className="font-['Aston'] font-light text-[20px] leading-[29px] text-[rgba(231,227,226,0.7)]">
-          Welcome to Cicchetti Italiano — India’s first modern vegetarian cicchetti bar, where sharing plates meet thoughtful design, craft and clean indulgence.
-        </p>
         <div className="relative w-full h-[400px] mb-8 overflow-hidden rounded-lg mt-10">
              <Image
                 src="/rest.jpg"
@@ -343,13 +361,13 @@ export default function MobileHome() {
             <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>OUR BRANDS</h3>
             <div className="flex flex-col gap-3 items-center">
                <a 
-                  href="https://www.instagram.com/bloomcafes?igsh=NDF4aDlrbnh6b2Fn" 
+                  href="https://bloomcafes.com/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-[21px] text-white hover:text-[#7e884d] transition-colors"
                   style={{ fontFamily: "Aston, sans-serif" }}
                >
-                  Bloom
+                  Bloom Cafe & Cakery
                </a>
                <a 
                   href="https://www.instagram.com/cicchetti.italiano?igsh=MWF4d2s2bzI1bGFtZg==" 

@@ -67,6 +67,29 @@ export default function MobileAbout() {
           </div>
         </div>
 
+        {/* USPs Strip */}
+        <section className="relative w-full py-8 px-6 bg-[#3b3f27] border-y border-[#7e884d]/20">
+          <div className="flex flex-col gap-4 items-center">
+            <div className="flex flex-col gap-3 items-center w-full">
+              <div className="text-center">
+                <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>Everything made from Scratch</span>
+              </div>
+              <div className="w-full h-[1px] bg-[#7e884d]/30"></div>
+              <div className="text-center">
+                <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>100% Vegetarian</span>
+              </div>
+              <div className="w-full h-[1px] bg-[#7e884d]/30"></div>
+              <div className="text-center">
+                <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>Organic Locally sourced ingredients</span>
+              </div>
+              <div className="w-full h-[1px] bg-[#7e884d]/30"></div>
+              <div className="text-center">
+                <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>Sustainable</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* The Restaurant */}
         <div className="flex flex-col gap-6">
           <div className="relative w-full aspect-square rounded-lg overflow-hidden shadow-2xl">
@@ -82,31 +105,8 @@ export default function MobileAbout() {
               THE CHEF
             </h2>
             <p className="text-[20px] leading-[30px] text-[rgba(231,227,226,0.7)]" style={{ fontFamily: "Aston, sans-serif" }}>
-              Feel the warmth and charm of our space, perfect for cherished moments with family, romantic evenings, and solo culinary adventures.
+              Chef Parth Gupta is a passionate culinary innovator dedicated to transforming plant-based dining with artistry, sustainability, and mindful balance. With world-class training from renowned institutions including Ecole Ducasse in Paris and Le Cordon Bleu in London, Parth combines international expertise with a deep commitment to ethical, sustainable cuisine that celebrates the natural flavors of vegetarian ingredients.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* USPs Strip */}
-      <section className="relative w-full py-8 px-6 bg-[#3b3f27] border-y border-[#7e884d]/20">
-        <div className="flex flex-col gap-4 items-center">
-          <div className="flex flex-col gap-3 items-center w-full">
-            <div className="text-center">
-              <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>Everything made from Scratch</span>
-            </div>
-            <div className="w-full h-[1px] bg-[#7e884d]/30"></div>
-            <div className="text-center">
-              <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>100% Vegetarian</span>
-            </div>
-            <div className="w-full h-[1px] bg-[#7e884d]/30"></div>
-            <div className="text-center">
-              <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>Organic Locally sourced ingredients</span>
-            </div>
-            <div className="w-full h-[1px] bg-[#7e884d]/30"></div>
-            <div className="text-center">
-              <span className="text-[18px] text-white" style={{ fontFamily: "Aston, sans-serif" }}>Sustainable</span>
-            </div>
           </div>
         </div>
       </section>
@@ -190,13 +190,13 @@ export default function MobileAbout() {
             <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>OUR BRANDS</h3>
             <div className="flex flex-col gap-3 items-center">
                <a 
-                  href="https://www.instagram.com/bloomcafes?igsh=NDF4aDlrbnh6b2Fn" 
+                  href="https://bloomcafes.com/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-[21px] text-white hover:text-[#7e884d] transition-colors"
                   style={{ fontFamily: "Aston, sans-serif" }}
                >
-                  Bloom
+                  Bloom Cafe & Cakery
                </a>
                <a 
                   href="https://www.instagram.com/cicchetti.italiano?igsh=MWF4d2s2bzI1bGFtZg==" 

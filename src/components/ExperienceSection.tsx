@@ -190,13 +190,6 @@ const ExperienceSection = () => {
           >
 
           </motion.h2>
-          <motion.p 
-            className="experience-intro" 
-            variants={textRevealVariants}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-          >
-            {splitTextIntoWords("Welcome to Cicchetti Italiano — India’s first modern vegetarian cicchetti bar, where sharing plates meet thoughtful design, craft and clean indulgence.")}
-          </motion.p>
         
         {/* First subsection - Image left, text right */}
         <motion.div 

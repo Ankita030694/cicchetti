@@ -152,13 +152,13 @@ export default function MobileContact() {
             <h3 className="text-[24px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>OUR BRANDS</h3>
             <div className="flex flex-col gap-3 items-center">
                <a 
-                  href="https://www.instagram.com/bloomcafes?igsh=NDF4aDlrbnh6b2Fn" 
+                  href="https://bloomcafes.com/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-[21px] text-white hover:text-[#7e884d] transition-colors"
                   style={{ fontFamily: "Aston, sans-serif" }}
                >
-                  Bloom
+                  Bloom Cafe & Cakery
                </a>
                <a 
                   href="https://www.instagram.com/cicchetti.italiano?igsh=MWF4d2s2bzI1bGFtZg==" 

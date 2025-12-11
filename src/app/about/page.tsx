@@ -35,27 +35,6 @@ export default function AboutPage() {
         
         <AboutExperienceSection />
         
-        {/* USPs Strip */}
-        <section className="usps-strip">
-          <div className="usps-container">
-            <div className="usp-item">
-              <span className="usp-text">Everything made from Scratch</span>
-            </div>
-            <div className="usp-divider"></div>
-            <div className="usp-item">
-              <span className="usp-text">100% Vegetarian</span>
-            </div>
-            <div className="usp-divider"></div>
-            <div className="usp-item">
-              <span className="usp-text">Organic Locally sourced ingredients</span>
-            </div>
-            <div className="usp-divider"></div>
-            <div className="usp-item">
-              <span className="usp-text">Sustainable</span>
-            </div>
-          </div>
-        </section>
-        
         <VisitUsSection />
         
         <Footer />

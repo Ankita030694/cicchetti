@@ -255,6 +255,27 @@ const AboutExperienceSection = () => {
           </motion.div>
         </motion.div>
         
+        {/* USPs Strip */}
+        <div className="usps-strip">
+          <div className="usps-container">
+            <div className="usp-item">
+              <span className="usp-text">Everything made from Scratch</span>
+            </div>
+            <div className="usp-divider"></div>
+            <div className="usp-item">
+              <span className="usp-text">100% Vegetarian</span>
+            </div>
+            <div className="usp-divider"></div>
+            <div className="usp-item">
+              <span className="usp-text">Organic Locally sourced ingredients</span>
+            </div>
+            <div className="usp-divider"></div>
+            <div className="usp-item">
+              <span className="usp-text">Sustainable</span>
+            </div>
+          </div>
+        </div>
+        
         {/* Second subsection - The Restaurant */}
         <motion.div 
           className="experience-subsection" 
@@ -293,7 +314,7 @@ const AboutExperienceSection = () => {
                 lineHeight: "42px"
               }}
             >
-              {splitTextIntoWords("Feel the warmth and charm of our space, perfect for cherished moments with family, romantic evenings, and solo culinary adventures.")}
+              {splitTextIntoWords("Chef Parth Gupta is a passionate culinary innovator dedicated to transforming plant-based dining with artistry, sustainability, and mindful balance. With world-class training from renowned institutions including Ecole Ducasse in Paris and Le Cordon Bleu in London, Parth combines international expertise with a deep commitment to ethical, sustainable cuisine that celebrates the natural flavors of vegetarian ingredients.")}
             </motion.p>
           </motion.div>
           <motion.div 

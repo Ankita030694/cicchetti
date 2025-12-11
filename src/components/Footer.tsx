@@ -45,12 +45,12 @@ export default function Footer() {
           </h3>
           <div className="footer-brands">
             <a 
-              href="https://www.instagram.com/bloomcafes?igsh=NDF4aDlrbnh6b2Fn" 
+              href="https://bloomcafes.com/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="footer-brand-link"
             >
-              Bloom
+              Bloom Cafe & Cakery
             </a>
             <a 
               href="https://www.instagram.com/cicchetti.italiano?igsh=MWF4d2s2bzI1bGFtZg==" 
