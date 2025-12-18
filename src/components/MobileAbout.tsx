@@ -7,26 +7,10 @@ export default function MobileAbout() {
   return (
     <div className="bg-[#3b3f27] relative w-full overflow-x-hidden min-h-screen pb-20">
       {/* About Hero Section */}
-      <section className="relative h-[100vh] w-full overflow-hidden flex items-center justify-center">
-        {/* Background Gradient matching AboutHero */}
-        <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-[#3B3F27] via-[#3B3F27] to-transparent z-0" />
-        
-        {/* Centered Image */}
-        <div className="relative z-10 w-[300px] h-[300px]">
-          <Image 
-            src="/ccfruit.png" 
-            alt="Cicchetti Fruit" 
-            fill
-            className="object-contain"
-            priority
-          />
-        </div>
 
-        {/* Blurred Bottom Effect */}
-      </section>
 
       {/* Full Width Image Section */}
-      <section className="relative w-full h-[400px] -mt-[200px] z-0">
+      <section className="relative w-full h-[400px] mt-[100px] z-0">
         <div className="relative w-full h-full">
           <Image
             src="/aboutbelow.jpg"
