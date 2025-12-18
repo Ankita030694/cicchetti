@@ -217,7 +217,7 @@ export default function MobileHome() {
             {/* 1. Times Food Recommends */}
             <a href="https://recipes.timesofindia.com/articles/food-trips/tf-recommends-places-to-explore-in-delhi/ncr-this-weekend/articleshow/124312495.cms" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4 min-w-[85vw] snap-center">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
-                  <Image src="/1.jpeg" alt="Times Food Recommends" fill className="object-cover" />
+                  <Image src="/1.jpeg" alt="Times Food Recommends" fill className="object-cover" unoptimized />
                </div>
                <div className="flex flex-col gap-2 text-left">
                   <h3 className="text-[25px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>Times Food Recommends</h3>
@@ -228,7 +228,7 @@ export default function MobileHome() {
             {/* 2. Deccan Chronicle - Guava */}
             <a href="https://www.deccanchronicle.com/tabloid/hyderabad-chronicle/everybody-is-going-ga-ga-over-guava-1908114" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4 min-w-[85vw] snap-center">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
-                  <Image src="/2.jpeg" alt="Deccan Chronicle Guava" fill className="object-cover" />
+                  <Image src="/2.jpeg" alt="Deccan Chronicle Guava" fill className="object-cover" unoptimized />
                </div>
                <div className="flex flex-col gap-2 text-left">
                   <h3 className="text-[25px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>Deccan Chronicle</h3>
@@ -239,7 +239,7 @@ export default function MobileHome() {
             {/* 3. Hindustan Times - Vodka */}
             <a href="https://www.hindustantimes.com/htcity/htcity-high-spirits/international-vodka-day-how-chefs-are-relooking-at-the-spirit-beyond-drinks-101759395832808.html" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4 min-w-[85vw] snap-center">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
-                  <Image src="/3.jpeg" alt="Hindustan Times Vodka" fill className="object-cover" />
+                  <Image src="/3.jpeg" alt="Hindustan Times Vodka" fill className="object-cover" unoptimized />
                </div>
                <div className="flex flex-col gap-2 text-left">
                   <h3 className="text-[25px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>Hindustan Times</h3>
@@ -250,7 +250,7 @@ export default function MobileHome() {
             {/* 4. Curly Tales - Teachers' Day */}
             <a href="https://curlytales.com/india/food/ct-exclusive-on-teachers-day-indian-chefs-and-bartenders-thank-the-gurus-who-shaped-their-journeys/amp/" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4 min-w-[85vw] snap-center">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
-                  <Image src="/4.jpeg" alt="Curly Tales Teachers Day" fill className="object-cover" />
+                  <Image src="/4.jpeg" alt="Curly Tales Teachers Day" fill className="object-cover" unoptimized />
                </div>
                <div className="flex flex-col gap-2 text-left">
                   <h3 className="text-[25px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>Curly Tales</h3>
@@ -261,7 +261,7 @@ export default function MobileHome() {
             {/* 5. Deccan Chronicle - Summertime */}
             <a href="https://www.deccanchronicle.com/tabloid/hyderabad-chronicle/summertime-culinary-ride-1879733" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4 min-w-[85vw] snap-center">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
-                  <Image src="/5.jpeg" alt="Deccan Chronicle Summertime" fill className="object-cover" />
+                  <Image src="/5.jpeg" alt="Deccan Chronicle Summertime" fill className="object-cover" unoptimized />
                </div>
                <div className="flex flex-col gap-2 text-left">
                   <h3 className="text-[25px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>Deccan Chronicle</h3>
@@ -272,7 +272,7 @@ export default function MobileHome() {
             {/* 6. Indian Express - Pasta */}
             <a href="https://indianexpress.com/article/lifestyle/food-wine/answered-why-italians-never-break-pasta-boiling-expert-9918120/" target="_blank" rel="noopener noreferrer" className="flex flex-col gap-4 min-w-[85vw] snap-center">
                <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
-                  <Image src="/6.jpeg" alt="Indian Express Pasta" fill className="object-cover" />
+                  <Image src="/6.jpeg" alt="Indian Express Pasta" fill className="object-cover" unoptimized />
                </div>
                <div className="flex flex-col gap-2 text-left">
                   <h3 className="text-[25px] text-white" style={{ fontFamily: "Deluce, sans-serif" }}>The Indian Express</h3>
